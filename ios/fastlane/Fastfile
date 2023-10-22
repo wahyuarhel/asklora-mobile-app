@@ -1,0 +1,150 @@
+fastlane_require 'dotenv'
+
+default_platform(:ios)
+
+before_all do
+    Dotenv.overload('../../.env')
+end
+
+platform :ios do
+
+   private_lane :set_up_env_vars do |options|
+      env = options[:env]
+      sh("cd ../.. && sh set_up.sh " + env)
+    end
+
+  private_lane :cert_dev do
+  match(
+      type: "development",
+      generate_apple_certs: false,
+      force: false,
+      app_identifier: "ai.asklora.app.dev",
+      git_url: "https://github.com/asklora/mobile-app-keys.git",
+      team_id: "GB8GPPG7HX",
+      team_name: "LORA Technologies, Limited")
+  end
+
+  private_lane :cert_stag do
+    match(
+      type: "appstore",
+      generate_apple_certs: false,
+      force: false,
+      app_identifier: "ai.asklora.app.stag",
+      git_url: "https://github.com/asklora/mobile-app-keys.git",
+      team_id: "GB8GPPG7HX",
+      team_name: "LORA Technologies, Limited")
+  end
+
+   private_lane :cert_mock do
+      match(
+        type: "appstore",
+        generate_apple_certs: true,
+        force: false,
+        app_identifier: "ai.asklora.app.mock",
+        git_url: "https://github.com/asklora/mobile-app-keys.git",
+        team_id: "GB8GPPG7HX",
+        team_name: "LORA Technologies, Limited")
+    end
+
+  private_lane :cert_release do
+    match(
+      type: "appstore",
+      generate_apple_certs: false,
+      force: false,
+      app_identifier: "ai.asklora.app",
+      git_url: "https://github.com/asklora/mobile-app-keys.git",
+      team_id: "GB8GPPG7HX",
+      team_name: "LORA Technologies, Limited")
+  end
+
+  private_lane :upload_to_app_center do
+    appcenter_upload(
+        api_token: ENV["APP_CENTER_DEV_API_TOKEN"],
+        owner_name: "krishna.gupta-loratechai.com",
+        owner_type: "user",
+        app_name: "AskLora-Dev",
+        file: "Runner.ipa",
+        notify_testers: true)
+  end
+
+  desc "Create a dev build"
+  lane :dev do
+    clean_build_artifacts()
+    set_up_env_vars(env:"dev")
+    cert_dev()
+    build_ios_app(workspace: "Runner.xcworkspace", scheme: "dev", export_method: "development")
+#    upload_to_testflight(username: "asklora@loratechai.com", app_identifier: "ai.asklora.app.dev", ipa: "Runner.ipa", skip_waiting_for_build_processing: true)
+    dev_release = firebase_app_distribution(
+        app: ENV["FIREBASE_IOS_DEV_APP_ID"],
+        ipa_path: "Runner.ipa", debug: true,
+        groups: "AskLora, Internal",
+    )
+
+    upload_symbols()
+
+    #TODO: Make this as Private Lane.
+    slack(
+      slack_url: ENV["SLACK_HOOK_URL"],
+      message: "🐕  Asklora Dev iOS App successfully released! 👯🏾‍👯🏾‍",
+      success: true,
+      payload: {
+        "Build Date" => dev_release[:createTime],
+        "🌎 Environment" => "Development",
+        "📥 Download" => dev_release[:firebaseConsoleUri],
+        "Build Version" => dev_release[:displayVersion],
+      },
+      default_payloads: [:git_branch, :git_author],
+    )
+  end
+
+  desc "Upload DSYM symbols file on Crashlytics"
+  lane :upload_symbols do
+       upload_symbols_to_crashlytics(dsym_path: "Runner.app.dSYM.zip", app_id: ENV["FIREBASE_IOS_DEV_APP_ID"], gsp_path: "Runner/GoogleService-Info.plist")
+  end
+
+  desc "Creating a staging build"
+  lane :staging do
+    set_up_env_vars(env:"staging")
+    cert_stag()
+    build_app(workspace: "Runner.xcworkspace", scheme: "staging",  export_method: "app-store")
+    upload_to_testflight(username: "asklora@loratechai.com", app_identifier: "ai.asklora.app.stag", ipa: "Runner.ipa", skip_waiting_for_build_processing: true)
+
+#    dev_release = firebase_app_distribution(
+#        app: ENV["FIREBASE_IOS_STAG_APP_ID"],
+#        ipa_path: "Runner.ipa", debug: true,
+#        groups: "AskLora, Internal",
+#    )
+#
+#    slack(
+#          slack_url: ENV["SLACK_HOOK_URL"],
+#          message: "🐕 , Asklora Dev iOS App successfully released!",
+#          success: true,
+#          payload: {
+#            "Build Date" => dev_release[:createTime],
+#            "🌎 Environment" => "Staging",
+#            "📥 Download" => dev_release[:firebaseConsoleUri],
+#            "Build Version" => dev_release[:displayVersion],
+#          },
+#          default_payloads: [:git_branch, :git_author],
+#    )
+   upload_symbols()
+  end
+
+    desc "Create a mock build"
+    lane :mock do
+      clean_build_artifacts()
+      set_up_env_vars(env:"mock")
+      cert_mock()
+      build_ios_app(workspace: "Runner.xcworkspace", scheme: "mock", export_method: "app-store")
+      upload_to_testflight(username: "asklora@loratechai.com", app_identifier: "ai.asklora.app.mock", ipa: "Runner.ipa", skip_waiting_for_build_processing: true)
+      upload_symbols()
+    end
+
+  desc "Creating a production build"
+  lane :release do
+    set_up_env_vars(env:"production")
+    cert_release()
+    build_app(workspace: "Runner.xcworkspace", scheme: "production",  export_method: "app-store")
+    #upload_to_testflight
+  end
+end

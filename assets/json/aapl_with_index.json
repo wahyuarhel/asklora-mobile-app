@@ -1,0 +1,331 @@
+[
+  {
+    "current_pnl_ret": null,
+    "date": "2022-08-11",
+    "hedge_share": null,
+    "i": 0,
+    "price": 168.49
+  },
+  {
+    "current_pnl_ret": null,
+    "date": "2022-08-12",
+    "hedge_share": null,
+    "i": 1,
+    "price": 172.1
+  },
+  {
+    "current_pnl_ret": null,
+    "date": "2022-08-15",
+    "hedge_share": null,
+    "i": 2,
+    "price": 173.19
+  },
+  {
+    "current_pnl_ret": null,
+    "date": "2022-08-16",
+    "hedge_share": null,
+    "i": 3,
+    "price": 173.03
+  },
+  {
+    "current_pnl_ret": null,
+    "date": "2022-08-17",
+    "hedge_share": null,
+    "i": 4,
+    "price": 174.55
+  },
+  {
+    "current_pnl_ret": null,
+    "date": "2022-08-18",
+    "hedge_share": null,
+    "i": 5,
+    "price": 174.15
+  },
+  {
+    "current_pnl_ret": null,
+    "date": "2022-08-19",
+    "hedge_share": null,
+    "i": 6,
+    "price": 171.52
+  },
+  {
+    "current_pnl_ret": -0.0020288905000001023,
+    "date": "2022-08-22",
+    "hedge_share": 59,
+    "i": 7,
+    "price": 167.23
+  },
+  {
+    "current_pnl_ret": -0.0020288905000001023,
+    "date": "2022-08-23",
+    "hedge_share": 0,
+    "i": 8,
+    "price": 167.23
+  },
+  {
+    "current_pnl_ret": -0.00023859549999993845,
+    "date": "2022-08-24",
+    "hedge_share": 0,
+    "i": 9,
+    "price": 167.53
+  },
+  {
+    "current_pnl_ret": 0.014680529500000095,
+    "date": "2022-08-25",
+    "hedge_share": 0,
+    "i": 10,
+    "price": 170.03
+  },
+  {
+    "current_pnl_ret": -0.02357210700000001,
+    "date": "2022-08-26",
+    "hedge_share": 0,
+    "i": 11,
+    "price": 163.62
+  },
+  {
+    "current_pnl_ret": -0.02357210700000001,
+    "date": "2022-08-29",
+    "hedge_share": 0,
+    "i": 12,
+    "price": 163.62
+  },
+  {
+    "current_pnl_ret": -0.02357210700000001,
+    "date": "2022-08-30",
+    "hedge_share": 0,
+    "i": 13,
+    "price": 163.62
+  },
+  {
+    "current_pnl_ret": -0.02357210700000001,
+    "date": "2022-08-31",
+    "hedge_share": 0,
+    "i": 14,
+    "price": 163.62
+  },
+  {
+    "current_pnl_ret": -0.02357210700000001,
+    "date": "2022-09-01",
+    "hedge_share": 0,
+    "i": 15,
+    "price": 163.62
+  },
+  {
+    "current_pnl_ret": -0.0701794535000001,
+    "date": "2022-09-02",
+    "hedge_share": 0,
+    "i": 16,
+    "price": 155.81
+  },
+  {
+    "current_pnl_ret": -0.07781804549999993,
+    "date": "2022-09-06",
+    "hedge_share": 0,
+    "i": 17,
+    "price": 154.53
+  },
+  {
+    "current_pnl_ret": -0.0692843059999999,
+    "date": "2022-09-07",
+    "hedge_share": 0,
+    "i": 18,
+    "price": 155.96
+  },
+  {
+    "current_pnl_ret": -0.07823578099999995,
+    "date": "2022-09-08",
+    "hedge_share": 0,
+    "i": 19,
+    "price": 154.46
+  },
+  {
+    "current_pnl_ret": -0.06086991949999987,
+    "date": "2022-09-09",
+    "hedge_share": 0,
+    "i": 20,
+    "price": 157.37
+  },
+  {
+    "current_pnl_ret": -0.024705960500000068,
+    "date": "2022-09-12",
+    "hedge_share": 0,
+    "i": 21,
+    "price": 163.43
+  },
+  {
+    "current_pnl_ret": -0.08193572399999993,
+    "date": "2022-09-13",
+    "hedge_share": 0,
+    "i": 22,
+    "price": 153.84
+  },
+  {
+    "current_pnl_ret": -0.07316327849999993,
+    "date": "2022-09-14",
+    "hedge_share": 0,
+    "i": 23,
+    "price": 155.31
+  },
+  {
+    "current_pnl_ret": -0.09070816950000005,
+    "date": "2022-09-15",
+    "hedge_share": 0,
+    "i": 24,
+    "price": 152.37
+  },
+  {
+    "current_pnl_ret": -0.10067414500000016,
+    "date": "2022-09-16",
+    "hedge_share": 0,
+    "i": 25,
+    "price": 150.7
+  },
+  {
+    "current_pnl_ret": -0.07811642800000007,
+    "date": "2022-09-19",
+    "hedge_share": 0,
+    "i": 26,
+    "price": 154.48
+  },
+  {
+    "current_pnl_ret": -0.06367471499999988,
+    "date": "2022-09-20",
+    "hedge_share": 0,
+    "i": 27,
+    "price": 156.9
+  },
+  {
+    "current_pnl_ret": -0.08265184200000009,
+    "date": "2022-09-21",
+    "hedge_share": 0,
+    "i": 28,
+    "price": 153.72
+  },
+  {
+    "current_pnl_ret": -0.08850013899999998,
+    "date": "2022-09-22",
+    "hedge_share": 0,
+    "i": 29,
+    "price": 152.74
+  },
+  {
+    "current_pnl_ret": -0.10228541050000006,
+    "date": "2022-09-23",
+    "hedge_share": 0,
+    "i": 30,
+    "price": 150.43
+  },
+  {
+    "current_pnl_ret": -0.10025640949999992,
+    "date": "2022-09-26",
+    "hedge_share": 0,
+    "i": 31,
+    "price": 150.77
+  },
+  {
+    "current_pnl_ret": -0.09434843600000009,
+    "date": "2022-09-27",
+    "hedge_share": 0,
+    "i": 32,
+    "price": 151.76
+  },
+  {
+    "current_pnl_ret": -0.1058063239999999,
+    "date": "2022-09-28",
+    "hedge_share": 0,
+    "i": 33,
+    "price": 149.84
+  },
+  {
+    "current_pnl_ret": -0.14972822800000007,
+    "date": "2022-09-29",
+    "hedge_share": -59,
+    "i": 34,
+    "price": 142.48
+  },
+  {
+    "current_pnl_ret": null,
+    "date": "2022-09-29",
+    "hedge_share": null,
+    "i": 35,
+    "price": 142.48
+  },
+  {
+    "current_pnl_ret": null,
+    "date": "2022-09-30",
+    "hedge_share": null,
+    "i": 36,
+    "price": 138.2
+  },
+  {
+    "current_pnl_ret": null,
+    "date": "2022-10-03",
+    "hedge_share": null,
+    "i": 37,
+    "price": 142.45
+  },
+  {
+    "current_pnl_ret": null,
+    "date": "2022-10-04",
+    "hedge_share": null,
+    "i": 38,
+    "price": 146.1
+  },
+  {
+    "current_pnl_ret": null,
+    "date": "2022-10-05",
+    "hedge_share": null,
+    "i": 39,
+    "price": 146.4
+  },
+  {
+    "current_pnl_ret": null,
+    "date": "2022-10-06",
+    "hedge_share": null,
+    "i": 40,
+    "price": 145.43
+  },
+  {
+    "current_pnl_ret": null,
+    "date": "2022-10-07",
+    "hedge_share": null,
+    "i": 41,
+    "price": 140.09
+  },
+  {
+    "current_pnl_ret": null,
+    "date": "2022-10-10",
+    "hedge_share": null,
+    "i": 42,
+    "price": 140.42
+  },
+  {
+    "current_pnl_ret": null,
+    "date": "2022-10-11",
+    "hedge_share": null,
+    "i": 43,
+    "price": 138.98
+  },
+  {
+    "current_pnl_ret": null,
+    "date": "2022-10-12",
+    "hedge_share": null,
+    "i": 44,
+    "price": 138.34
+  },
+  {
+    "current_pnl_ret": null,
+    "date": "2022-10-13",
+    "hedge_share": null,
+    "i": 45,
+    "price": 142.99
+  },
+  {
+    "current_pnl_ret": null,
+    "date": "2022-10-14",
+    "hedge_share": null,
+    "i": 46,
+    "price": 138.38
+  }
+]

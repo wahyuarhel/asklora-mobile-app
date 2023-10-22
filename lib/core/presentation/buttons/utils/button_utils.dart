@@ -1,0 +1,1 @@
+enum ButtonSecondarySize { small, big }

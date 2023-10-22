@@ -1,0 +1,2 @@
+json_key_file("../firebase_credentials_dev.json")
+package_name("ai.asklora.app")

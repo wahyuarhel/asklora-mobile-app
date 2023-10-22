@@ -1,0 +1,29 @@
+<svg width="79" height="79" viewBox="0 0 79 79" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <g filter="url(#filter0_f_9740_10330)">
+        <circle cx="39.5" cy="39.5" r="33.5" fill="url(#paint0_radial_9740_10330)"
+            fill-opacity="0.3" />
+    </g>
+    <circle cx="39.5" cy="39.5" r="33" stroke="white" />
+    <g clip-path="url(#clip0_9740_10330)">
+        <path
+            d="M36.5194 49.0003H35.7302C35.665 48.9864 35.5994 48.974 35.5347 48.9581C34.7315 48.7616 34.0731 48.3298 33.58 47.643C33.2441 47.175 33.0136 46.6425 33.0112 46.0619C32.9964 41.8154 33.0002 37.5683 33.0012 33.3213C33.0012 33.1139 33.016 32.9049 33.0419 32.6995C33.1464 31.8752 33.5537 31.2156 34.1618 30.708C34.7795 30.1928 35.4954 29.9531 36.3114 30.0082C36.8616 30.0454 37.3585 30.2047 37.8291 30.4767C38.6394 30.9447 39.444 31.4236 40.2519 31.8965C41.1001 32.3928 41.9497 32.8871 42.7983 33.3823C43.6518 33.8806 44.5052 34.3793 45.3582 34.8791C46.3521 35.4612 47.3392 36.0567 48.3422 36.6215C48.9086 36.9406 49.3504 37.3768 49.6418 37.9614C49.9772 38.6343 50.0788 39.3484 49.9393 40.1052C49.7812 40.9643 49.3916 41.6779 48.679 42.1335C47.6306 42.8039 46.5476 43.4158 45.4756 44.0461C44.4981 44.6207 43.5162 45.187 42.5357 45.7567C41.665 46.2629 40.7939 46.7681 39.9236 47.2758C39.3927 47.5854 38.8675 47.9055 38.3337 48.2097C37.9652 48.4197 37.5933 48.6266 37.2095 48.8033C36.9933 48.9025 36.7499 48.9368 36.5185 49.0003H36.5194Z"
+            fill="white" />
+    </g>
+    <defs>
+        <filter id="filter0_f_9740_10330" x="0" y="0" width="79" height="79"
+            filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+            <feGaussianBlur stdDeviation="3" result="effect1_foregroundBlur_9740_10330" />
+        </filter>
+        <radialGradient id="paint0_radial_9740_10330" cx="0" cy="0" r="1"
+            gradientUnits="userSpaceOnUse"
+            gradientTransform="translate(39.5 39.5) rotate(90) scale(33.5)">
+            <stop stop-color="white" stop-opacity="0" />
+            <stop offset="1" stop-color="white" />
+        </radialGradient>
+        <clipPath id="clip0_9740_10330">
+            <rect width="17" height="19" fill="white" transform="translate(33 30)" />
+        </clipPath>
+    </defs>
+</svg>

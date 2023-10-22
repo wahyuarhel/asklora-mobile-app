@@ -1,0 +1,7 @@
+git_url("https://github.com/asklora/mobile-app-keys.git")
+
+storage_mode("git")
+
+type("development")
+
+app_identifier(["ai.asklora.app.dev", "ai.asklora.app.stag", "ai.asklora.app", "ai.asklora.app.mock"])

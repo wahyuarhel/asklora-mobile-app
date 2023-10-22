@@ -1,0 +1,802 @@
+{
+  "@@locale": "zh",
+  "botDuration": "Bot 期限",
+  "botManagementFee": "Bot 管理費用",
+  "buttonNext": "下一步",
+  "buttonCreateAnAccount": "建立帳戶",
+  "buttonLetsBegin": "立即開始",
+  "buttonForgetPassword": "忘記密碼？",
+  "buttonSignOut": "登出",
+  "signIn": "登入",
+  "buttonHaveAnAccount": "已有賬戶？",
+  "buttonContinue": "繼續",
+  "buttonMaybeLater": "稍後再說",
+  "buttonWithdraw": "提取",
+  "buttonViewTransactionHistory": "查看交易歷史",
+  "buttonSignUp": "註冊",
+  "buttonAlreadyHaveAnAccount": "已有帳戶",
+  "buttonResendActivationLink": "再發送開通連結",
+  "buttonSignUpAgain": "再次註冊",
+  "buttonSave": "儲存",
+  "carouselIntro1": "投資一樣\n要夠Fit",
+  "carouselIntro2": "FinFit教練，Lora 全程教路",
+  "carouselIntro3": "AI策略，\n自動交易",
+  "carouselIntro4": "個人化體驗，\n前所未見",
+  "currentPrice": "當前價格",
+  "deposit": "存入資金",
+  "depositRegulatoryRequirements": "基於監管要求，如要更改銀行戶口，你必須重新入金最少HKD${amount}",
+  "@depositRegulatoryRequirements": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "depositAmount": "存入金額",
+  "depositRequestSubmittedTitle": "已收到入金申請",
+  "depositRequestSubmittedSubTitleFirstTime": "我們會於 1 至 2 個工作天內檢視你的開戶申請及首次入金。當賬戶批核後會以電郵或應用程式通知。",
+  "depositRequestSubmittedSubTitleReturn": "你已提交入金請求，當收到入金後，\n我們會盡快以電郵或應用程式通知。",
+  "emailActivationSuccessTitle": "已發送電子郵件至\n {emailAddress}\n\n請用手機點擊開通連結！",
+  "@emailActivationSuccessTitle": {
+    "placeholders": {
+      "emailAddress": {
+        "type": "String"
+      }
+    }
+  },
+  "emailActivationFailedTitle": "Sorry！你嘅請求已經逾時。\n請重新開通帳戶。",
+  "estStopLossPercent": "預計止損 %",
+  "estMaxLossPercent": "預計最大損失%",
+  "estTakeProfitPercent": "預計止賺%",
+  "estMaxProfitPercent": "預計最大收益%",
+  "estimatedEndDate": "預計結束日期",
+  "employees": "員工人數",
+  "founded": "成立年份",
+  "gotIt": "知道了",
+  "headquarters": "總部地點",
+  "about": "關於",
+  "askNameScreenPlaceholder": "Hi! 我係 Lora，\n你嘅 AI 顧問。\n\n準備好向投資目標進發未？\n我可以點叫你？",
+  "bestSuitedFor": "最適合",
+  "greetingScreenTitle": "Alright! 準備好\n開始你嘅 AI 旅程未？",
+  "greetingScreenSubTitle": "訓練開始，會問下基本問題先！\n記住，冇耐性，就輸梗！ ",
+  "accountSettings": "帳戶設定",
+  "corePlan": "核心計劃",
+  "freeTrial": "免費試用期",
+  "allSettings": "設定",
+  "investmentPreferences": "投資偏好",
+  "investmentStyleWelcomeTitle": "想知Asklora有咩投資秘技？\n界定你嘅投資風格先！\n",
+  "transactionHistory": "交易歷史",
+  "accountInformation": "帳戶資訊",
+  "changePassword": "更改密碼",
+  "paymentDetails": "銀行賬戶詳情",
+  "language": "語言",
+  "notificationSettings": "通知設定",
+  "terminateAccount": "終止賬戶",
+  "userId": "用戶 ID",
+  "fullName": "姓名",
+  "phone": "電話",
+  "dateJoined": "加入日期",
+  "free": "免費",
+  "investmentAmount": "投資金額",
+  "tradeFee": "交易費用",
+  "endedAmount": "到期價值",
+  "summary": "摘要",
+  "activities": "交易記錄",
+  "filledPrice": "成交價格",
+  "shares": "數量",
+  "orderCancelled": "訂單己取消",
+  "orderPlaced": "已提交訂單",
+  "orderStarted": "訂單已開始",
+  "orderRollover": "訂單已續期",
+  "orderExpired": "訂單已過期",
+  "aboutAsklora": "關於 Asklora",
+  "website": "網站",
+  "privacyPolicy": "私隱政策",
+  "termsAndConditions": "條款與約束",
+  "contactUs": "聯絡我們",
+  "getHelp": "獲得幫助",
+  "customerService": "客戶服務",
+  "email": "電郵",
+  "emailAddress": "電郵地址",
+  "officeHoursLabel": "辦公時間",
+  "officeHours": "09:00-18:00 (HKT)",
+  "buttonCancel": "取消",
+  "buttonConfirm": "確定",
+  "buttonNotNow": "稍後再說",
+  "buttonReloadPage": "重新加載",
+  "buttonDeposit": "入金",
+  "buttonCancelTrade": "取消交易",
+  "buttonDone": "完成",
+  "buttonDefineInvestmentStyle": "立即體驗",
+  "errorGettingInformationTitle": "咦，無法獲取資料",
+  "errorGettingInformationPortfolioSubTitle": "載入你投資組合時出咗少少問題，Reload一次試下？",
+  "errorGettingInformationInvestmentDetailSubTitle": "載入你投資細節時出咗少少問題，Reload一次試下？",
+  "askNameScreenTextFieldHint": "你的名字",
+  "tooltipBotDetailsStartDate": "Lora開始Botstocks交易",
+  "tooltipBotDetailsInvestmentPeriod": "你定下的投資時間，Botstock將會於此期間內自動買賣股票。",
+  "tooltipBotDetailsEstMaxProfit": "Bot將出售以獲取最大利潤的股票價位。",
+  "tooltipBotDetailsEstMaxLoss": "Bot將出售以限制損失的最低股票價位。",
+  "tooltipBotDetailsEstTakeProfit": "Plank Bot將出售以獲取利潤的預設最高股票價位",
+  "tooltipBotDetailsEstStopLoss": "Plank Bot將出售以限制過分損失的預設最低股票價位",
+  "botTradeBottomSheetAmountTitle": "你想投資嘅金額係？",
+  "botTradeBottomSheetAmountMinimum": "你有 {availableAmount} 可供使用，每單交易最小金額為 {minimumAmount} 。",
+  "@botTradeBottomSheetAmountMinimum": {
+    "placeholders": {
+      "availableAmount": {
+        "type": "String"
+      },
+      "minimumAmount": {
+        "type": "String"
+      }
+    }
+  },
+  "botTradeBottomSheetInsufficientBalanceTitle": "唔夠資金，幫你唔到，係時候入錢入戶口！",
+  "botTradeBottomSheetInsufficientBalanceSubTitle": "每單交易最小金額為 {minimumAmount} 。",
+  "@botTradeBottomSheetInsufficientBalanceSubTitle": {
+    "placeholders": {
+      "minimumAmount": {
+        "type": "String"
+      }
+    }
+  },
+  "botTradeBottomSheetAccountNotYetApprovedTitle": "賬戶成功批核後就可以開始交易。",
+  "botTradeBottomSheetAccountNotYetApprovedSubTitle": "預計批核時間為 2 個工作天。",
+  "botTradeBottomSheetRolloverConfirmationButton": "延長",
+  "botTradeBottomSheetRolloverDisclosureTitle": "你將延長 Botstock 投資期，\n 並需繳付額外延長費用。",
+  "botTradeBottomSheetRolloverDisclosureSubTitle": "延長期費用為每個Botstock 每月 HKD40， \n如你賬戶裡金額不足，收費金額將會在你有\n足夠的購買力的時候扣除。",
+  "botTradeBottomSheetRolloverConfirmationTitle": "你想延長 Botstock 投資期\n以繼續交易？\n\n2 星期",
+  "botTradeBottomSheetRolloverConfirmationSubTitle": "更新到期時間為 {expiryTime}",
+  "@botTradeBottomSheetRolloverConfirmationSubTitle": {
+    "placeholders": {
+      "expiryTime": {
+        "type": "String"
+      }
+    }
+  },
+  "botTradeBottomSheetEndBotStockConfirmationTitle": "你可以選擇依家結束，所有 {botInformation} 嘅交易活動會立即停止。",
+  "@botTradeBottomSheetEndBotStockConfirmationTitle": {
+    "placeholders": {
+      "botInformation": {
+        "type": "String"
+      }
+    }
+  },
+  "botTradeBottomSheetEndBotStockConfirmationSubTitle": " Botstock 的總價值會自動轉至你的賬戶。",
+  "botTradeBottomSheetFreeBotStockSuccessfullyAddedTitle": "免費 Botstock 已成功加至\n你嘅投資組合！",
+  "botTradeBottomSheetFreeBotStockSuccessfullyAddedSubTitle": "存入資金正式交易",
+  "botTradeBottomSheetCancelBotStockConfirmationTitle": "投資額及交易費用 (HKD{amount}) 會自動轉至你嘅賬戶。",
+  "@botTradeBottomSheetCancelBotStockConfirmationTitle": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "howItWorks": "如何運作",
+  "marketCap": "市值",
+  "passwordChangeSuccess": "Password Change Success",
+  "yourPasswordHasBeenChanged": "Your password has been changed",
+  "passwordDoesNotMatch": "兩組密碼不相符",
+  "existingPassword": "現有密碼",
+  "oldPasswordSameWithNewPasswordError": "設置的新密碼不能和舊密碼相同",
+  "prevClose": "上日收市",
+  "portfolioBuyingPowerToolTip": "購買力代表了你可以用來購買Botstock的現金額。你的可提取金額和購買力會出現不一樣的情況。例如，開始Botstock後，你的購買力會相對減少，而Botstock總價值會相對提高。或當你的Botstock已到期或被終止，其價值將會增加至購買力，而在「T+2」日，T為交易當日， 該價值也會同時顯示在可提取金額。 ",
+  "portfolioDetailPerformanceTitle": "表現",
+  "portfolioDetailPerformanceBotStockValues": "Botstock 價值 (HKD)",
+  "portfolioDetailPerformanceInvestmentAmount": "投資金額 (HKD)",
+  "portfolioDetailPerformanceTotalPL": "總盈虧",
+  "portfolioCurrentPrice": "當前價格",
+  "portfolioDetailExpiredAt": "到期日期 {dateTime}",
+  "@portfolioDetailExpiredAt": {
+    "placeholders": {
+      "dateTime": {
+        "type": "String"
+      }
+    }
+  },
+  "portfolioDetailExpiredIn": "{dateTime}日後到期",
+  "@portfolioDetailExpiredIn": {
+    "placeholders": {
+      "dateTime": {
+        "type": "String"
+      }
+    }
+  },
+  "portfolioDetailPerformanceNumberOfShares": "持股數量",
+  "portfolioDetailPerformanceStockValues": "股票價值 (HKD)",
+  "portfolioDetailPerformanceCash": "現金 (HKD)",
+  "portfolioDetailPerformanceBotAssetsInStock": "股票/現金比例",
+  "portfolioDetailKeyInfoTitle": "主要資訊",
+  "portfolioDetailKeyInfoDaysTillExpiry": "續期時間",
+  "portfolioDetailKeyInfoStartTime": "開始時間",
+  "portfolioDetailKeyInfoEndTime": "結束時間",
+  "portfolioDetailKeyInfoEstimatedStopLoss": "預計止損 %",
+  "portfolioDetailKeyInfoEstimatedTakeProfit": "預計止賺%",
+  "portfolioDetailKeyInfoEstimatedMaxLoss": "預計最大損失%",
+  "portfolioDetailKeyInfoEstimatedMaxProfit": "預計最大收益% ",
+  "portfolioDetailKeyInfoBotStockStatus": "Botstock 狀態",
+  "portfolioDetailKeyInfoBotStockNumberOfRollover": "Number of Rollovers",
+  "portfolioDetailKeyInfoAvgReturn": "平均回報",
+  "portfolioDetailKeyInfoAvgLoss": "平均虧損",
+  "portfolioDetailKeyInfoAvgPeriod": "平均時期 (日數)",
+  "portfolioDetailButtonCancelBotStock": "取消BOTSTOCK",
+  "portfolioDetailButtonEndBotStock": "取消Botstock",
+  "portfolioDetailButtonRolloverBotStock": "續期Botstock",
+  "portfolioDetailChartCaption": "{bot} 於過去 {duration} 星期之表現  ({startDate} - {endDate})",
+  "@portfolioDetailChartCaption": {
+    "placeholders": {
+      "bot": {
+        "type": "String"
+      },
+      "startDate": {
+        "type": "String"
+      },
+      "endDate": {
+        "type": "String"
+      },
+      "duration": {
+        "type": "String"
+      }
+    }
+  },
+  "portfolioTotalValue": "總價值 ",
+  "portfolioWithdrawableAmount": "可提取金額 ({currency})",
+  "@portfolioWithdrawableAmount": {
+    "placeholders": {
+      "currency": {
+        "type": "String"
+      }
+    }
+  },
+  "portfolioBuyingPower": "購買力 ({currency})",
+  "@portfolioBuyingPower": {
+    "placeholders": {
+      "currency": {
+        "type": "String"
+      }
+    }
+  },
+  "portfolioTotalBotStock": "Botstock 總價值 ({currency})",
+  "@portfolioTotalBotStock": {
+    "placeholders": {
+      "currency": {
+        "type": "String"
+      }
+    }
+  },
+  "createAnAccountCapitalize": "開立賬戶",
+  "portfolioPopUpCreateAnAccountTitle": "建立賬戶，開始交易",
+  "portfolioPopUpCreateAnAccountSubTitle": "開始交易後，你可以喺度管理你所有投資。快啲建立賬戶進行交易啦！",
+  "defineInvestmentStyle": "界定投資風格",
+  "portfolioPopUpDefineInvestmentTitle": "界定投資風格，立即交易！",
+  "portfolioPopUpDefineInvestmentSubTitle": "你仲未界定你嘅投資風格。快啲去睇下咩\nBotstocks 最適合你喇！",
+  "continueAccountOpening": "開立投資賬戶",
+  "portfolioPopUpContinueAccountOpeningTitle": "尚未完成開戶",
+  "portfolioPopUpContinueAccountOpeningSubTitle": "喺可以開始正式交易之前，你需要完成開戶。",
+  "portfolioPopUpFundAccountTitle": "尚未入金",
+  "portfolioPopUpFundAccountSubTitle": "你好似仲未入錢喎，入咗 HKD 10,000 就可以正式完成開戶手續！",
+  "startABotstock": "開始交易",
+  "portfolioPopUpNoTradingHasStartedTitle": "尚未開始任何交易!",
+  "portfolioPopUpNoTradingHasStartedtSubTitle": " 開始交易後你就可以一次過管理所有投資。",
+  "portfolioTotalPL": "總盈虧",
+  "portfolioYourBotStock": "你的Botstocks",
+  "performance": "表現",
+  "sectors": "領域",
+  "transactionHistoryTitle": "交易歷史",
+  "transactionHistoryTabAll": "全部",
+  "transactionHistoryTabOrders": "訂單",
+  "transactionHistoryTabTransfer": "提存 ",
+  "transactionHistoryToday": "今日",
+  "totalPnlIs": "總盈虧",
+  "notificationSetting": "通知設定",
+  "inApp": "In-app通知",
+  "industry": "行業",
+  "investmentPeriod": "投資期",
+  "pushNotification": "推送通知",
+  "password": "密碼",
+  "newPassword": "新密碼",
+  "confirmNewPassword": "確認新密碼",
+  "startDate": "最佳開始日期",
+  "signOutConfirmation": " 真係要登出？",
+  "setUpFinancialProfile": "設定財務概況",
+  "doAnyOfTheFollowingApply": "以下描述適用於你或你的直系親屬？",
+  "iAmASeniorExecutive": "我是上市公司的高級行政人員或持有 10% 或以上的股份。",
+  "iAmASeniorPolitical": "我是高級政治人物。",
+  "iAmAFamily": "我是高級政治人物的家庭成員或親屬。",
+  "iAmADirector": "我是香港證券及期貨事務監察委員會註冊持牌機構的董事、員工、或註冊持牌人士。(除了Lora Advisors Limited）",
+  "yes": "是",
+  "no": " 否",
+  "saveForLater": "儲存並離開",
+  "yourBankAccount": "銀行賬戶",
+  "yourBankAccountIsUnderReview": "銀行賬戶正在審批當中，並會於{dateTime} 完成。",
+  "@yourBankAccountIsUnderReview": {
+    "placeholders": {
+      "dateTime": {
+        "type": "String"
+      }
+    }
+  },
+  "changeBankAccount": "更改銀行戶口",
+  "noteOnPaymentDetails": "注意\n我們會與你所登記銀行協作藉以核實你的銀行資料（賬戶姓名、銀行編號、銀行賬戶 號碼）。我們亦可能會因核實交易，向你要求更多附加資料。",
+  "yourPaymentInformationIsUnderReview": "您的銀行帳戶信息正在審核中。一旦您的開戶申請獲批，您的銀行帳戶詳細信息將顯示在此處。請注意，審核過程最多可能需要 2 個工作日。",
+  "needHelp": "需要幫助？",
+  "milestones": "目標",
+  "startInvesting": "開始投資 ",
+  "privacyEvaluation": "私隱評估",
+  "personalisation": "個人化",
+  "createAnAccount": "開立賬戶",
+  "openInvestmentAccount": "開立新投資賬戶",
+  "getTheFirstBotstockForFree": "獲取首個免費 Botstock ",
+  "payDepositToStartRealTrade": "入金以開始正式交易",
+  "tradeWithBots": "以 Bot 交易",
+  "introduceBotPlank": "簡介 Bot - Plank",
+  "introduceBotPullup": "簡介 Bot - Pullup",
+  "introduceBotSquat": "簡介 Bot - Squat",
+  "tradeWithYourFirstBotstock": "以首隻 Botstock 交易",
+  "masterAiTrading": "Master AI Trading",
+  "learnBotstockManagement": "學䲾 Botstock 管理",
+  "manageYourBotstock": "管理 Botstock",
+  "signUpTitle": " 踏入AI新世代，\n展開AI投資之旅",
+  "tradeWithANewBotstock": "以一隻新 Botstock 交易",
+  "to": "至",
+  "transactionFee": "交易費用",
+  "transferTo": "轉賬至",
+  "totalAmount": "總金額",
+  "welcomeScreenTitle": "投資都要夠 Fit ",
+  "welcomeScreenSubTitle": "踢走投資壞習慣！\n由AI 顧問 Asklora 帶你一齊體驗嶄新科技！",
+  "welcomeScreenFirstBenefit": "度身訂做AI指導",
+  "welcomeScreenSecondBenefit": "個人化體驗",
+  "welcomeScreenThirdBenefit": "AI 全自動交易",
+  "withdrawalAmount": "提取金額",
+  "withdrawalWorkingDays": "提取款項最多需時2個工作天。",
+  "withdrawalRequestSubmittedTitle": "已收到提取申請",
+  "withdrawalRequestSubmittedSubTitle": "當資金已繳付至你戶口後，我們會盡快透過電郵或應用程式通知。",
+  "withdraw": "提取資金",
+  "relearn": "再次學習",
+  "min": " ~{minute} 分鐘",
+  "@min": {
+    "placeholders": {
+      "minute": {
+        "type": "String"
+      }
+    }
+  },
+  "viewDepositGuide": "查看入金提示",
+  "pressBackAgain": "再按一次登出Asklora",
+  "reviewYourTradeSummary": "查看你嘅交易摘要，點擊 ",
+  "toExecuteIt": " 就可以立即執行指示！",
+  "hereYouCanFind": "你可以係度搵到 ",
+  "botStocksDetails": "Botstock 嘅詳情同預計回報。 ",
+  "thisInteractiveGraph": "你可以係下面見到Botstock最近",
+  "twoWeekPerformance": "兩個星期",
+  "toGiveYou": "嘅表現，希望幫到你理解Botstock係點樣交易！",
+  "ifYouveGot": "如果你有",
+  "anyQuestion": "任何",
+  "aboutYourInvestment": "關於投資嘅問題，可以點擊此處 ",
+  "personalAIAssistant": "問你嘅AI助手Asklora! ",
+  "simplyTypeAQuestion": "Simply type a question and tap the ",
+  "sendIcon": "send icon ",
+  "toStartAConversation": "to start a conversation. Tap the icon again to dismiss Asklora",
+  "tradeSummary": "交易摘要",
+  "marketPrice": "市場價格",
+  "endDate": "結束日期",
+  "confirmTrade": " \"確認買入\"",
+  "checkBotStockDetails": "查看 Botstock 資訊",
+  "tradeRequestSubmitted": "已經收到交易指令",
+  "tradeCancelledTitle": "交易已取消",
+  "buttonBackToHome": "返回主頁",
+  "tradeCancelledSubtitle": "交易已取消，你的投資金額已轉至你嘅賬戶。",
+  "startBotStockAcknowledgement": "{botName} {botSymbol} will start when the US market opens",
+  "@startBotStockAcknowledgement": {
+    "placeholders": {
+      "botName": {
+        "type": "String"
+      },
+      "botSymbol": {
+        "type": "String"
+      }
+    }
+  },
+  "beforeKYCHeaderTitle": "進度好好吖,\n{name}！",
+  "@beforeKYCHeaderTitle": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "endBotStockAcknowledgement": "{botName} {botSymbol} will end when the US market opens",
+  "@endBotStockAcknowledgement": {
+    "placeholders": {
+      "botName": {
+        "type": "String"
+      },
+      "botSymbol": {
+        "type": "String"
+      }
+    }
+  },
+  "beforeDepositHeaderTitle": "離AI投資之道\n又近左一步，{name}！",
+  "@beforeDepositHeaderTitle": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "afterPayDepositHeaderTitle": "投資賬戶\n即將 Ready！",
+  "greatStart": "開始投資",
+  "halfWayThere": "進展順利",
+  "almostFinished": "馬上就好",
+  "startInvestingOnMilestone": "即將進入投資狀態！",
+  "depositFundToStartInvesting": "存入資金開始投資",
+  "onBoardingCompletionMessage": "您已經完成了在Asklora開立賬戶的所有步驟！您的賬戶一\n經審核通過，即可開始交易。審核通常需要1至2個工作日。",
+  "nextStep": "下一步",
+  "go": "繼續",
+  "depositViaFpsOrWireTransfer": "以 FPS 或電匯入金",
+  "transferAtLeastWithNoMinimumDeposit": "請由你之前使用的銀行戶口轉賬至Asklora 銀行戶口。",
+  "transferAtLeastWithMinimumDeposit": "請轉賬最少 HK${minDeposit} 至 Asklora 銀行戶口。任何少於 HK${minDeposit} 的首次入金均會被拒收，並會被徵收手續費。",
+  "@transferAtLeastWithMinimumDeposit": {
+    "placeholders": {
+      "minDeposit": {
+        "type": "String"
+      }
+    }
+  },
+  "uploadProofOfRemittance": "上載匯款證明",
+  "theProofOfRemittanceShouldShowYourBankAccount": "匯款證明需要顯示你的銀行戶口號碼，全名 及金額。",
+  "inputDepositAmount": "輸入金額",
+  "theAmountMustMatch": "輸入金額須與匯款輸入證明必須一致。",
+  "yourDepositCanTakeUp2WorkingDays": "入金程序最多需時 2 個工作天",
+  "notes": "說明",
+  "returningUserDepositNotes": "我們會與你所登記銀行協作藉以核實你的銀行資料（賬戶姓名、銀行編號、銀行賬戶號碼）。不過，我們亦可能會因核實交易，向你要求更多附加資料。",
+  "weWillTakeInformationCollectedFromYour": "我們會提取由你銀行透過 API 或匯款通知書收集的資訊， 確定你指定的銀行戶口。我們只會接受透過此指定戶口進行所有將來的入金與提取。你可轉換指定銀行戶口，但你需要完成最少匯款 HK${minDeposit} 以通過相同的認證。",
+  "@weWillTakeInformationCollectedFromYour": {
+    "placeholders": {
+      "minDeposit": {
+        "type": "String"
+      }
+    }
+  },
+  "pleaseAddAHkBankAccount": "請確保加入的香港銀行戶口是在你名下。其他人的銀行戶口及聯名戶口將不會接受。",
+  "weWillOnlyAcceptDepositViaBankTransfer": "我們只接受由你戶口透過銀行轉賬 (電匯/FPS) 的入金。",
+  "weWillOnlyAcceptHKD": "我們只接受港幣",
+  "transferInitialFundToAsklora": "轉賬首筆資金予Asklora",
+  "transferFundToAsklora": "轉賬資金予Asklora",
+  "firstTimeCopyAskloraBankDetails": "複製 Asklora 銀行資料，並從你銀行戶口透過 FPS 或 電匯 轉賬不少於 HK${minDeposit}。",
+  "@firstTimeCopyAskloraBankDetails": {
+    "placeholders": {
+      "minDeposit": {
+        "type": "String"
+      }
+    }
+  },
+  "copyAskloraBankDetails": "複製 Asklora 銀行資料，並從你銀行戶口透過 FPS或電匯轉。",
+  "theAmountMustMatchWithPor": "金額須與匯款證明一致。",
+  "thePorShouldShowYourBank": "匯款證明需要顯示你的銀行戶口號碼，全名 及金額。",
+  "pleaseMakeSureYouHaveFinished": "匯款證明需要顯示你的銀行戶口號碼，全名 及金額。",
+  "pleaseMakeSureYouPressSubmit": "請確保於你的銀行轉賬資金後才按「提交」鍵。",
+  "yourDepositMayBeRejected": "若所通知的金額與實際轉賬金額不符，你的入金可能會被拒絕。",
+  "weAcceptHKDOnly": "我們只接受港幣。",
+  "buttonSubmit": "提交",
+  "min8Character": "最少 8 個字母",
+  "atLeast1Lowercase": "最少 1 個小寫英文字母",
+  "atLeast1Uppercase": "最少 1 個大寫英文字母",
+  "atLeast1Number": "最少 1 個數字",
+  "readyToGo": "準備好未？",
+  "invalidPassword": "無效密碼",
+  "signAgreements": "簽署協議",
+  "licenseeName": "持牌人：張永經",
+  "licenseeNumber": "CE 編號: AFF918",
+  "riskDisclosureStatementLabel": "風險披露聲明",
+  "riskDisclosureStatementString": "1. The prices of securities fluctuate, sometimes dramatically. The price of a security may move up or down, and may become valueless. It is as likely that losses will be incurred rather than profit made as a result of buying and selling securities. Investors should not only base on this marketing material to make any investment decision, you should carefully consider whether the investment products or services are suitable for you according to your investment experience, purpose, risk tolerance, financial or related conditions. If you have any questions, please contact us or obtain independent advice.\n\n2. Investment in foreign securities carries additional risks not generally associated with securities in the domestic market. The value or income of foreign securities may be more volatile and could be adversely affected by changes in currency rates of exchange, foreign taxation practices, foreign laws, government practices, regulations, and political events. You may find it more difficult to liquidate investments in foreign securities where they have limited liquidity in the relevant market. Foreign laws, government practices, and regulations may also affect the transferability of foreign securities. Timely and reliable information about the value or the extent of the risks of foreign securities may not be readily available at all times.\n\n3. You acknowledge that you have fully understood the implications of the risks associated with the Electronic Trading Service as set out in the Client Agreement",
+  "riskDisclosureStatementAcknowledgement": "我已閱讀、理解，及同意風險披露聲明。",
+  "financialProfile": "Financial Profile",
+  "agreements": "Agreements",
+  "submitApplication": "Submit Application",
+  "summaryAgreementInformation": "The agreements will become binding subject to the approval of the information submitted by you. \n\nIf there is a material change to this information, please contact loracares@asklora.ai as soon as possible",
+  "enterANewPassword": "請輸入新密碼",
+  "resetPassword": "重設密碼",
+  "passwordLinkHasBeenSent": "已發送重設密碼電郵，\n請檢查你的電郵。",
+  "inputWrongEmailAddress": "電郵地址錯誤",
+  "cannotRememberEmailAddress": "忘記登入電郵地址？\n請發送電郵至 cs@asklora.ai",
+  "forgotPassword": "忘記密碼",
+  "forgotPasswordMessage": "請輸入你的電郵地址，我們會發送重設密碼的指示給你。",
+  "resetPasswordSuccessful": "密碼重設成功",
+  "resetPasswordSuccessfulMessage": "你的密碼已經被重設。請返回登入頁面重新登入。",
+  "backToLogin": "返回登入",
+  "askloraYouUltimateFinancialAdvisor": "Asklora.\n你嘅 AI 投資顧問",
+  "askMeAnythingRelatedToFinance": "有咩投資問題都可以問我！",
+  "investmentResultScreenTitle": "你嘅投資風格已經界定",
+  "investmentResultScreenDescription": "仲差少少就可以開波!\n\n開戶喇!",
+  "privacyFailedScreenTitle": "你尚未符合資格使用Asklora",
+  "privacyFailedScreenDescription": "有可能你的風險評級太低，\n或者年齡未合乎要求。\n\n如有答案填錯，\n麻煩再試一次。",
+  "privacySuccessScreenTitle": "年齡只不過係個數字。",
+  "privacySuccessScreenDescription": "識揀 Asklora，\n證明你精明過好多人！\n\nOk！係時候再了解你多啲！",
+  "buttonTryAgain": "再試一次",
+  "buttonSure": "好",
+  "personalizationResultScreenTitle": "Alright!\n\n你嘅答案顯示我嘅科技同你都幾夾，我哋都可以進取少少！",
+  "opennessLessThan8": "用AI投資其實可以好簡單。",
+  "opennessMoreThan8": "我哋一定好夾!",
+  "neuroticismLessThan8": "我哋可以進取少少, 承受一定嘅風險",
+  "neuroticismMoreThan8": "我哋一步一步嚟, 控制住風險",
+  "extrovertLessThan8": "每個人都需要me time，獨個觀看世間變幻事情",
+  "extrovertMoreThan8": "你一定係交際花, 將你嘅vibe發光發亮!",
+  "active": "交易中",
+  "pending": "處理中",
+  "expiresAt": "到期日期",
+  "startsAt": "開始日期",
+  "botRecommendationScreenTitle": "最夾你嘅投資風格",
+  "notFeelingIt": "唔啱心水？當然仲有得揀！",
+  "buttonChangeInvestmentStyle": "更改投資風格",
+  "trade": "交易",
+  "askloraWireDetails": "Asklora 電匯 詳情",
+  "buttonViewDetails": "查看詳情",
+  "wireTransfer": "電匯",
+  "bankNumber": "銀行號碼",
+  "accountNumber": "戶口號碼",
+  "bankName": "銀行名稱",
+  "swiftCode": "Swift 代碼",
+  "accountName": "戶口名稱",
+  "companyAddress": "銀行地址",
+  "exchangeRateInDepositScreen": "現時匯率: HKD 1 = USD 0.137 (於 HKT {time})",
+  "@exchangeRateInDepositScreen": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "errorStoringData": "數據存取發生錯誤",
+  "errorStoringDataDetails": "Oops！我們在嘗試存儲你的回覆時遇到一些技術困難。讓我們重新做題",
+  "emailNotExist": "此電郵地址的用戶不存在",
+  "emailNotVerified": "用戶電郵未認證",
+  "enterValidPassword": "請輸入有效密碼",
+  "enterValidEmail": "請輸入有效電郵地址",
+  "passwordChangeSuccessfully": "密碼更改成功",
+  "tokenInvalid": "Token is invalid or expired.",
+  "invalidOtp": "無效OTP",
+  "linkPasswordResetIsSent": "重設密碼連結已發送至電子郵件。",
+  "accountIsNotActive": "Your account is not active yet.",
+  "pleaseEnterYouEmail": "請輸入你的電郵地址，我們會發送重設密碼的指示給你。",
+  "cantRememberYourEmail": "忘記登入電郵地址？\n請發送電郵至 help@asklora.ai",
+  "inputWrongEmail": "電郵地址錯誤",
+  "buttonBackToPortfolio": "返回投資組合頁",
+  "resultOfPersonalizationQuestion": "{opennessScore} {neuroticismScore}\n\n{extrovertScore}",
+  "@resultOfPersonalizationQuestion": {
+    "placeholders": {
+      "opennessScore": {
+        "type": "String"
+      },
+      "neuroticismScore": {
+        "type": "String"
+      },
+      "extrovertScore": {
+        "type": "String"
+      }
+    }
+  },
+  "noTransactions": "暫時沒有交易",
+  "noTransactionsYet": "你似乎未進行過任何交易！",
+  "checkBackLater": "稍後再來查看!",
+  "defineAgain": "重新界定",
+  "updatedAt": "於 {updated} 更新",
+  "@updatedAt": {
+    "placeholders": {
+      "updated": {
+        "type": "String"
+      }
+    }
+  },
+  "otpScreenTitle": "一次性密碼",
+  "otpScreenDescription": "我們已透過SMS傳送一組號碼以核實你所登記電話，請於下面輸入一次性密碼 (OTP)。",
+  "@otpScreenDescription": {
+    "placeholders": {
+      "phoneNumber": {
+        "type": "String"
+      }
+    }
+  },
+  "buttonVerify": "核實",
+  "otpSentToYourPhone": "Otp SMS is sent to your phone",
+  "verifyOtpSuccess": "Verify OTP Success",
+  "otpSentToYourEmail": "OTP code sent to your email",
+  "otpDigit": "000000 (6 位數字)",
+  "sendOtp": "發送 OTP",
+  "reSendOtp": "在{seconds}秒後重發 ",
+  "@reSendOtp": {
+    "placeholders": {
+      "seconds": {
+        "type": "String"
+      }
+    }
+  },
+  "aiIsqWelcomeTitle": "想知Asklora有咩投資秘技？",
+  "aiIsqWelcomeSubTitle": "界定你嘅投資風格先！",
+  "isqNextButton": "Please press to proceed to the next question",
+  "cancelled": "已取消",
+  "expired": "已到期",
+  "rejected": "已拒絕",
+  "completed": "已完成",
+  "buy": "買入",
+  "sell": "賣出",
+  "depositHistory": "入金歷史",
+  "timeRequested": "請求時間",
+  "bankAccountNumber": "銀行戶口號碼",
+  "status": "狀態",
+  "timeCompleted": "完成時間",
+  "withdrawalHistory": "提款歷史",
+  "kycRejectedScreenTitle": "Sorry，原來你唔合資格用 Asklora！",
+  "kycRejectedExplanationOfAffiliate": "我們不接受上述類別人士\n開立賬戶。",
+  "buttonGoBack": "返回",
+  "employment": "雇傭",
+  "employmentStatus": "就業狀況",
+  "pleaseSelect": "請選擇",
+  "employed": "受僱",
+  "selfEmployed": "自僱",
+  "retired": "退休",
+  "student": "學生",
+  "businessOwner": "企業主",
+  "homeMaker": "家庭主婦",
+  "unEmployed": "失業",
+  "homeTrader": "At-Home Trader",
+  "unknown": "Unknown",
+  "natureOfBusiness": "業務性質",
+  "natureOfBusinessDesc": "業務性質描述",
+  "architectureEngineering": "Architecture / Engineering",
+  "artDesign": "Arts / Design",
+  "businessNonFinance": "Business, Non-Finance",
+  "communitySocialService": "Community / Social Service",
+  "computerInformationTechnology": "Computer / Information Technology",
+  "construction": "Construction",
+  "educationTrainingLibrary": "Education / Training / Library",
+  "farmingFishingForestry": "Farming, Fishing and Forestry",
+  "financeBrokerDealerBank": "Finance/ Broker Dealer /Bank",
+  "foodBeverage": "Food and Beverage",
+  "healthcare": "Healthcare",
+  "installationMaintenanceRepair": "Installation, Maintenance, and Repair",
+  "legal": "Legal",
+  "lifePhysicalSocialService": "Life, Physical and Social Service",
+  "mediaCommunications": "Media and Communications",
+  "lawEnforcementGovernmentProtectiveService": "Law Enforcement, Government, Protective Service",
+  "personalCareService": "Personal Care / Service",
+  "productionManufacturing": "Production and Manufacturing",
+  "transportationMaterialMoving": "Transportation and Material Moving",
+  "other": "Other",
+  "sourceOfWealth": "財富來源",
+  "accountOpeningAndDeposit": "以下部分係確保你帳戶安全，我哋你的將安全放在第一位。",
+  "getReadyForTrading": "準備好AI 交易",
+  "setupPersonalInfo": "設定個人資料",
+  "verifyIdentity": "核實身份",
+  "theItemYouWillNeed": "你需要以下文件..",
+  "hkId": "香港身份證",
+  "porAddress": "住址證明",
+  "weAcceptUtilityBill": "(我們接受最近3個月的水/電/煤氣繳費單、銀行結單或政府函件)",
+  "onceYouHaveStarted": "當你開始後，你亦可以隨時於任何時間再繼續。",
+  "openAccountNow": "立即開戶",
+  "usResidentQuestion": "你是否擁有美國稅務居民身份、持有綠卡，或公民身份？",
+  "hkResidentQuestion": "你是否香港居民？如果你選擇【是】， 你將會被視爲香港稅務居民。",
+  "personalInfoFormDesc": "請確保名字與身份證明文件一致。",
+  "personalInfo": "個人資料",
+  "legalFirstName": "法定英文名字",
+  "legalLastName": "法定英文姓氏",
+  "hkIdNumber": "香港身份證號碼",
+  "nationality": "國籍",
+  "dateOfBirth": "出生日期",
+  "countryOfBirth": "出生地點",
+  "hkPhoneNo": "香港電話號碼",
+  "pleaseProvideYourResidentialAddress": "請提供你的住宅地址。這也將是你的郵寄地址。",
+  "uploadAddressProof": "上傳住址證明",
+  "yourAddressProofMustContainFullName": " 你的住址證明必須包含你全名、詳細住址及發行機構。\n\n我們接受最近3個月的水/電/煤氣繳費單、銀行結單或政府函件。",
+  "addressProof": "住址證明",
+  "confirmAndContinue": "確認並繼續",
+  "subscription": "訂購",
+  "pleaseReadTheAskloraCustomerAgreement": "請細閱 Asklora 客戶協議。你必須剔選所有勾選框並提供你的簽名才能繼續。",
+  "iHaveReadAndAgreed": "我已細閱、理解及同意受 LORA Advisors Limited 戶口條款約束，引用的所有其他條款， 披露及免責聲明對我同樣適用。",
+  "iUnderstandSigningAgreement": "我理解我以電子方式簽署協議，我的電子簽署會與親筆簽署及提交申請協議同樣有效。",
+  "AskloraAgreementFile": "Asklora 客戶協議.pdf",
+  "taxAgreementDesc": "Under penalties of perjury, I declare that I have examined the information in lines 1-7 and to the best of my knowledge and belief it is true, correct, and complete. I further certify under penalties of perjury that:",
+  "taxAgreementDescPoint1": "I am the individual that is the beneficial owner (or am authorized to sign for the individual that is the beneficial owner) of all the income or proceeds to which this form relates or am using this form to document myself for chapter 4 purposes;",
+  "taxAgreementDescPoint2": "The person named on line 1 of this form is not a U.S. person;",
+  "taxAgreementDescPoint3": "This form relates to:",
+  "taxAgreementDescPoint3SubPoint1": "income not effectively connected with the conduct of a trade or business in the United States;",
+  "taxAgreementDescPoint3SubPoint2": "income effectively connected with the conduct of a trade or business in the United States but is not subject to tax under an applicable income tax treaty;",
+  "taxAgreementDescPoint3SubPoint3": "the partner's share of a partnership's effectively connected taxable income;",
+  "taxAgreementDescPoint3SubPoint4": "or the partner's amount realized from the transfer of a partnership interest subject to withholding under section 1446(f);",
+  "taxAgreementDescPoint4": "The person named on line 1 of this form is a resident of the treaty country listed on line 9 of the form (if any) within the meaning of the income tax treaty between the United States and that country;",
+  "taxAgreementDescPoint5": "and For broker transactions or barter exchanges, the beneficial owner is an exempt foreign person as defined in the instructions to IRS Form W-8BEN.",
+  "taxAgreementDesc2": "Furthermore, I authorize this form to be provided to any withholding agent that has control, receipt, or custody of the income of which I am the beneficial owner or any withholding agent that can disburse or make payments of the income of which I am the beneficial owner. I agree I will submit a new form within 30 days if any certification made on this form becomes incorrect.",
+  "taxAgreementDesc3": "The US Internal Revenue Service does not require your consent to any provisions of this document other than the certifications required to establish your status as a non-U.S. person, and if applicable, obtain a reduced rate of witholding.",
+  "taxAgreementCheckboxDesc": "By checking this box, you consent to the collection and distribution of tax forms in an electronic format in lieu of paper",
+  "taxAgreementSignatureTitle": "Signature",
+  "taxAgreementSignatureDesc": "By typing my signature and clicking ‘Agree’ below, I confirm that:",
+  "taxAgreementSignatureDescPoint1": "(1) All information and/or documentation provided by me during the account application process is accurate, complete and up-to-date; ",
+  "taxAgreementSignatureDescPoint2": "(2) I have read and understood all of the information provided to me by LORA Advisors;",
+  "taxAgreementSignatureDescPoint3": "(3) I consent and agree to the terms of all the above agreements and disclosures provided to me during the account application process: and",
+  "taxAgreementSignatureDescPoint4": "(4) I understand and agree that my electronic signature is the legal equivalent of a manual written signature.",
+  "signInElectronically": "Sign this electronically by typing your name exactly as shown below.",
+  "acceptedSignature": "Accepted signature(s):",
+  "agree": "Agree",
+  "askloraCustomerAgreement": "Asklora Customer Agreement",
+  "riskDisclosureStatement": "Risk Disclosure Statement",
+  "w8benForm": "W-8BEN Form",
+  "formW8ben": "Form W-8BEN",
+  "agreed": "Agreed",
+  "weNeedToVerifyYourId": "我們需要你的身份證核實你的身份。",
+  "getReadyForTheVerification": "核實程序即將開始，你將要......",
+  "takePhotoFront": "拍攝香港身份證正面",
+  "takePhotoBack": "拍攝香港身份證背面",
+  "takeSelfie": "自拍照一張",
+  "verifyNow": "立即核實",
+  "kycResultScreenTitle": "幫緊你,幫緊你!",
+  "kycResultScreenDesc": "你嘅投資賬戶正在審核中\n一有進度Asklora會馬上同你聯絡",
+  "depositFund": "存入資金",
+  "botManagementFeeTooltip": "The Bot management fee is the monthly fee that you pay for a Bot (HKD40). If you’re on the Core Plan, then there are no management fees, as it’s included in your subscription!",
+  "ourPersonalisedRecommendationsAreUnique": "每個個人化建議均獨一無二。所建議的 Botstock 都是根據你能承受的風險、個性測試及投資風格所提供。",
+  "generalSettings": "設定",
+  "notTheStockYouWereLooking": "唔係你想要嘅股票?",
+  "botExplanationScreenTitle": "Botstock 由一隻股票及一個 Bot 組成。 每一個 Bot 各代表一個獨一無二的 AI 投資策略。而Lora會幫你管理策略。",
+  "botStockExplanationScreenBottomButton": "明白！咁Bot可以做啲咩？",
+  "botStockDoScreenTitle": "A ‘Bot’ is your personal AI manager that trades your stock for you.",
+  "botStockDoScreenPoint1": "Hit a home run!",
+  "botStockDoScreenPoint2": "Simple and easy!",
+  "botStockDoScreenPoint3": "Passive income!",
+  "buttonGotIt": "Got it!",
+  "understood": "明白！",
+  "botStockWelcomeScreenTitle": "萬事具備, 即刻開始交易你嘅第一隻Botstock!",
+  "botStockWelcomeScreenBottomButton": "好！咩咩Botstock話？",
+  "pressToStartOver": "重新界定",
+  "pressToRedoISQ": "重新界定投資風格",
+  "seeMyRecommendations": "See My Recommendations",
+  "startAgain": "Start Again",
+  "botTradeBottomSheetAmountMinimumFirst": "你有 {availableAmount} 可供使用，",
+  "@botTradeBottomSheetAmountMinimumFirst": {
+    "placeholders": {
+      "availableAmount": {
+        "type": "String"
+      }
+    }
+  },
+  "botTradeBottomSheetAmountMinimumSecond": "每單交易最小金額為 {minimumAmount} 。",
+  "@botTradeBottomSheetAmountMinimumSecond": {
+    "placeholders": {
+      "minimumAmount": {
+        "type": "String"
+      }
+    }
+  },
+  "ppiGotIt": "了解!",
+  "botValues": "當前價格",
+  "botRecommendationTutorialDesc1": "Here are ",
+  "botRecommendationTutorialDesc2": "your unique recommendations ",
+  "botRecommendationTutorialDesc3": "based on how you answered the ISQ section",
+  "giftBotStockMessageScreenTitle": "每一次你投資新嘅Botstock, 我都會問你投資風格問題，咁我就可以提供新嘅個人化投資建議畀你！",
+  "giftBotStockMessageScreenBottomButton": "OK! 睇下畀我嘅推薦",
+  "tooltipDescOfTickerDetailsTutorial": "Here's a brief description of the bot and stock you've chosen",
+  "tapAnyWhere": "Tap anywhere to continue",
+  "youCanClickOn": "You can click on ",
+  "tellMeMore": "Tell Me More",
+  "toOpenLora": " to open Lora and get more details about your investment!",
+  "requestedToEnd": "Requested To End",
+  "userNotFound": "User Not Found",
+  "goToPortfolio": "Go To Portfolio",
+  "startAnotherInvestments": "Start another investment",
+  "timeForInvestmentStyleQuestion": "想知Asklora有咩投資技？ 界定你嘅投資風格先！",
+  "isqWillHelpMeUnderstandWhatKindOfStocks": "ISQ會幫到我了解你對咩類型股票有興趣",
+  "letsTrade": "LET'S TRADE",
+  "rememberYouCan": "Remember, you can always ",
+  "clickOnLora": "click on Lora ",
+  "toAskAnyOtherQuestion": "to ask any other questions you might have",
+  "useThe": "Use the",
+  "navBar": "nav bar",
+  "toGoToDifferentPages": "to go to different pages.",
+  "left": "Left",
+  "recommendations": "Recommendations",
+  "middle": "Middle",
+  "LoraAi": "Lora AI",
+  "right": "Right",
+  "portfolio": "Portfolio",
+  "throughoutYourInvestmentJourney": "Throughout your investment journey, you’ll see Lora on your bottom nav bar. Click on Lora at anytime to get advice or to ask anything related to finance.",
+  "letsGo": "Let’s Go",
+  "botStockExplanationScreenTitle": "You pick the stock, and the 'Bot' will trade it for you!"
+}

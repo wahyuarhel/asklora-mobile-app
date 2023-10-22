@@ -1,0 +1,182 @@
+[
+  {
+    "clearing_code": 12,
+    "bank_name": "Bank of China (Hong Kong)",
+    "chinese_name": "中國銀行(香港)有限公司",
+    "swift_bic": "BKCHHKHH"
+  },
+  {
+    "clearing_code": 27,
+    "bank_name": "Bank of Communications (Hong Kong)",
+    "chinese_name": "交通銀行(香港)有限公司",
+    "swift_bic": "COMMHKHH"
+  },
+  {
+    "clearing_code": 15,
+    "bank_name": "Bank of East Asia",
+    "chinese_name": "東亞銀行有限公司",
+    "swift_bic": "BEASHKHH"
+  },
+  {
+    "clearing_code": 18,
+    "bank_name": "China CITIC Bank International",
+    "chinese_name": "中信銀行國際有限公司",
+    "swift_bic": "KWHKHKHH"
+  },
+  {
+    "clearing_code": 9,
+    "bank_name": "China Construction Bank (Asia)",
+    "chinese_name": "中國建設銀行(亞洲)股份有限公司",
+    "swift_bic": "PCBCHKHH"
+  },
+  {
+    "clearing_code": 39,
+    "bank_name": "Chiyu Banking Corporation",
+    "chinese_name": "集友銀行有限公司",
+    "swift_bic": "CIYUHKHH"
+  },
+  {
+    "clearing_code": 41,
+    "bank_name": "Chong Hing Bank",
+    "chinese_name": "創興銀行有限公司",
+    "swift_bic": "LCHBHKHH"
+  },
+  {
+    "clearing_code": 250,
+    "bank_name": "Citibank (Hong Kong)",
+    "chinese_name": "花旗銀行(香港)有限公司",
+    "swift_bic": "CITIHKAX"
+  },
+  {
+    "clearing_code": 40,
+    "bank_name": "Dah Sing Bank",
+    "chinese_name": "大新銀行有限公司",
+    "swift_bic": "DSBAHKHH"
+  },
+  {
+    "clearing_code": 16,
+    "bank_name": "DBS Bank (Hong Kong)",
+    "chinese_name": "星展銀行(香港)有限公司",
+    "swift_bic": "DBSSHKHH"
+  },
+  {
+    "clearing_code": 128,
+    "bank_name": "Fubon Bank (Hong Kong)",
+    "chinese_name": "富邦銀行(香港)有限公司",
+    "swift_bic": "IBALHKHH"
+  },
+  {
+    "clearing_code": 24,
+    "bank_name": "Hang Seng Bank",
+    "chinese_name": "恒生銀行有限公司",
+    "swift_bic": "HASEHKHH"
+  },
+  {
+    "clearing_code": 4,
+    "bank_name": "(HSBC) Hongkong and Shanghai Banking Corporation",
+    "chinese_name": "香港上海滙豐銀行有限公司",
+    "swift_bic": "HSBCHKHH"
+  },
+  {
+    "clearing_code": 72,
+    "bank_name": "Industrial and Commercial Bank of China (Asia)",
+    "chinese_name": "中國工商銀行(亞洲)有限公司",
+    "swift_bic": "ICBKHKHH"
+  },
+  {
+    "clearing_code": 43,
+    "bank_name": "Nanyang Commercial Bank",
+    "chinese_name": "南洋商業銀行有限公司",
+    "swift_bic": "NYCBHKHH"
+  },
+  {
+    "clearing_code": 35,
+    "bank_name": "OCBC Wing Hang Bank",
+    "chinese_name": "華僑永亨銀行有限公司",
+    "swift_bic": "WIHBHKHH"
+  },
+  {
+    "clearing_code": 28,
+    "bank_name": "Public Bank (Hong Kong)",
+    "chinese_name": "大眾銀行(香港)有限公司",
+    "swift_bic": "CBHKHKHH"
+  },
+  {
+    "clearing_code": 25,
+    "bank_name": "Shanghai Commercial Bank",
+    "chinese_name": "上海商業銀行有限公司",
+    "swift_bic": "SCBKHKHH"
+  },
+  {
+    "clearing_code": 3,
+    "bank_name": "Standard Chartered Hong Kong",
+    "chinese_name": "渣打銀行(香港)有限公司",
+    "swift_bic": "SCBLHKHH"
+  },
+  {
+    "clearing_code": 61,
+    "bank_name": "Tai Sang Bank",
+    "chinese_name": "大生銀行有限公司",
+    "swift_bic": "TSBLHKHH"
+  },
+  {
+    "clearing_code": 38,
+    "bank_name": "Tai Yau Bank",
+    "chinese_name": "大有銀行有限公司",
+    "swift_bic": "TYBLHKKW"
+  },
+  {
+    "clearing_code": 20,
+    "bank_name": "CMB Wing Lung Bank",
+    "chinese_name": "招商永隆銀行有限公司",
+    "swift_bic": "WUBAHKHH"
+  },
+  {
+    "clearing_code": 395,
+    "bank_name": "Airstar Bank Limited  ",
+    "chinese_name": "天星銀行有限公司",
+    "swift_bic": null
+  },
+  {
+    "clearing_code": 393,
+    "bank_name": "Ant Bank (Hong Kong) Limited",
+    "chinese_name": "螞蟻銀行(香港)有限公司",
+    "swift_bic": null
+  },
+  {
+    "clearing_code": 391,
+    "bank_name": "Fusion Bank Limited",
+    "chinese_name": "富融銀行有限公司",
+    "swift_bic": null
+  },
+  {
+    "clearing_code": 388,
+    "bank_name": "Livi Bank Limited",
+    "chinese_name": "理慧銀行有限公司",
+    "swift_bic": null
+  },
+  {
+    "clearing_code": 389,
+    "bank_name": "Mox Bank",
+    "chinese_name": "/",
+    "swift_bic": null
+  },
+  {
+    "clearing_code": 392,
+    "bank_name": "Ping An OneConnect Bank (Hong Kong) Limited",
+    "chinese_name": "平安壹賬通銀行(香港)有限公司",
+    "swift_bic": null
+  },
+  {
+    "clearing_code": 390,
+    "bank_name": "WeLab Bank Limited",
+    "chinese_name": "匯立銀行有限公司",
+    "swift_bic": null
+  },
+  {
+    "clearing_code": 387,
+    "bank_name": "ZA Bank Limited",
+    "chinese_name": "眾安銀行有限公司",
+    "swift_bic": null
+  }
+]

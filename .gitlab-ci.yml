@@ -1,0 +1,67 @@
+image: ghcr.io/cirruslabs/flutter:3.13.0
+
+stages:
+  #  - build
+  - format
+  - analyze
+  - test
+
+before_script:
+  - cd ..
+  - git clone https://gitlab+deploy-token-4:C_UxoDSukHkRH4u8T2Ef@gitlab.intra.asklora.store/frontend/flutter_country_picker.git
+  - pwd
+  - git clone https://gitlab+deploy-token-4:C_UxoDSukHkRH4u8T2Ef@gitlab.intra.asklora.store/frontend/asklora-flutter-chart.git
+  - pwd
+  - git clone https://gitlab+deploy-token-4:C_UxoDSukHkRH4u8T2Ef@gitlab.intra.asklora.store/frontend/flutter_showcaseview.git
+  - pwd
+  - cd asklora-mobile-app
+  - flutter clean
+  - flutter pub get
+
+# build:
+#  stage: build
+
+#  script:
+#    - flutter build aot
+
+#  tags:
+#    - shared
+
+#  only:
+#    - merge_requests
+
+format:
+  tags:
+    - dev
+
+  stage: format
+
+  script:
+    - make format
+
+  only:
+    - pushes
+
+analyze:
+  tags:
+    - dev
+
+  stage: analyze
+
+  script:
+    - make lint
+
+  only:
+    - pushes
+
+unit_test:
+  tags:
+    - dev
+
+  stage: test
+
+  script:
+    - make run_test
+
+  only:
+    - pushes

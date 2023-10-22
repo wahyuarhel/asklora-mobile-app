@@ -1,0 +1,832 @@
+{
+  "@@locale": "en",
+  "agree": "Agree",
+  "getHelp": "Get Help",
+  "customerService": "Customer Service",
+  "email": "Email",
+  "aboutAsklora": "About Asklora",
+  "website": "Website",
+  "privacyPolicy": "Privacy Policy",
+  "termsAndConditions": "Terms and Conditions",
+  "contactUs": "Contact Us",
+  "officeHoursLabel": "Office Hours",
+  "officeHours": "09:00-18:00 (HKT)",
+  "botDuration": "Bot Duration",
+  "botManagementFee": "Bot Management Fee",
+  "buttonSignUp": "Sign Up",
+  "buttonAlreadyHaveAnAccount": "Already Have An Account?",
+  "buttonResendActivationLink": "Resend Activation Link",
+  "buttonSignUpAgain": "Sign Up Again",
+  "buttonCancel": "Cancel",
+  "buttonConfirm": "Confirm",
+  "buttonDone": "Done",
+  "buttonNext": "Next",
+  "buttonNotNow": "Not Now",
+  "buttonReloadPage": "Reload Page",
+  "buttonDeposit": "Deposit",
+  "buttonCancelTrade": "Cancel Trade",
+  "buttonHaveAnAccount": "Have An Account?",
+  "buttonLetsBegin": "Let's Begin",
+  "buttonSignOut": "Sign Out",
+  "buttonBack": "Back",
+  "buttonContinue": "Continue",
+  "buttonMaybeLater": "Maybe Later",
+  "buttonWithdraw": "Withdraw",
+  "buttonBackToPortfolio": "Back To Portfolio",
+  "buttonBackToHome": "Back To Home",
+  "buttonContactCustomerService": "Contact Customer Service",
+  "buttonChangeInvestmentStyle": "Change Investment Style",
+  "buttonForgetPassword": "Forget Password?",
+  "buttonViewTransactionHistory": "View Transaction History",
+  "buttonSave": "Save",
+  "currentPrice": "Current Price",
+  "depositAmount": "Deposit Amount",
+  "deposit": "Deposit",
+  "depositRegulatoryRequirements": "Due to regulatory requirements, you need to deposit at least HK${amount} if you want to change bank account",
+  "@depositRegulatoryRequirements": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "depositRequestSubmittedTitle": "Deposit Request Submitted",
+  "depositRequestSubmittedSubTitleFirstTime": "Your account opening application and initial deposit will be reviewed within 1-2 working days. You will be informed via email and app notification once your account is approved.",
+  "depositRequestSubmittedSubTitleReturn": "Your deposit request is submitted. We'll let you know via email and app notification as soon as your deposit arrives.",
+  "emailActivationSuccessTitle": "We've sent an email to\n {emailAddress}\n\nPlease use your phone to click on the activation link!",
+  "@emailActivationSuccessTitle": {
+    "placeholders": {
+      "emailAddress": {
+        "type": "String"
+      }
+    }
+  },
+  "emailActivationFailedTitle": "Sorry! You were a bit late, your request has timed out. \n\nLet's try and activate your account again!",
+  "estStopLossLevel": "Est. Stop Loss Level",
+  "estMaxLossLevel": "Est. Max Loss Level",
+  "estTakeProfitLevel": "Est. Take Profit Level",
+  "estMaxProfitLevel": "Est. Max Profit Level",
+  "estStopLossPercent": "Est. Stop Loss %",
+  "estMaxLossPercent": "Est. Max Loss %",
+  "estTakeProfitPercent": "Est. Take Profit %",
+  "estMaxProfitPercent": "Est. Max Profit %",
+  "estimatedEndDate": "Estimated End Date",
+  "employees": "Employees",
+  "expiresAt": "Expires at",
+  "startsAt": "Starts at",
+  "ceo": "CEO",
+  "founded": "Founded",
+  "gotIt": "Got It",
+  "headquarters": "Headquarters",
+  "accountSettings": "Account Settings",
+  "corePlan": "Core Plan",
+  "freeTrial": "Free Trial",
+  "allSettings": "All Settings",
+  "investmentPreferences": "Investment Preferences",
+  "transactionHistory": "Transaction History",
+  "accountInformation": "Account Information",
+  "changePassword": "Change Password",
+  "paymentDetails": "Payment Details",
+  "language": "Language",
+  "notificationSettings": "Notification Settings",
+  "terminateAccount": "Terminate Account",
+  "userId": "User ID",
+  "fullName": "Full Name",
+  "phone": "Phone",
+  "dateJoined": "Date Joined",
+  "free": "Free",
+  "botStockId": "Botstock ID",
+  "investmentAmount": "Investment Amount",
+  "investmentStyleWelcomeTitle": "It’s time to define your investment style.Show me what you’re made of!",
+  "tradeFee": "Trade Fee",
+  "endedAmount": "Ended Amount",
+  "summary": "Summary",
+  "activities": "Activities",
+  "filledPrice": "Filled Price",
+  "shares": "Shares",
+  "orderCancelled": "Order Cancelled",
+  "orderRejected": "Order Rejected",
+  "orderPlaced": "Order Placed",
+  "orderStarted": "Order Started",
+  "orderRollover": "Order Rollover",
+  "orderExpired": "Order Expired",
+  "retakeInvestmentStyle": "Retake Investment Style",
+  "errorGettingInformationTitle": "Unable to get information",
+  "errorGettingInformationPortfolioSubTitle": "There was an error when trying to get your Portfolio. Please try reloading the page",
+  "errorGettingInformationInvestmentDetailSubTitle": "There was an error when trying to get the investment details. Please try reloading the page",
+  "errorGettingInformationInvestmentStyleQuestionSubTitle": "There was an error when trying to get the investment style question. Please try reloading the page",
+  "errorGettingInformationTransactionHistorySubTitle": "There was an error when trying to get the transaction history. Please try reloading the page",
+  "errorWithdrawalUnavailableTitle": "Withdrawal Unavailable",
+  "errorWithdrawalUnavailableSubTitle": "You don't have any funds to withdraw. You haven't deposited yet or your deposit might still be processing ",
+  "carouselIntro1": "Get your Investments in Shape",
+  "carouselIntro2": "Guided by FinFit Coach, Lora",
+  "carouselIntro3": "Invest with AI strategy, automated",
+  "carouselIntro4": "Personalised experience",
+  "about": "About",
+  "confirm": "Confirm",
+  "askNameScreenPlaceholder": "I'm Lora, your personal AI assistant.\n\nGet ready to crush your investment goals!\nWhat's your name? ",
+  "askNameScreenTextFieldHint": "Your Name",
+  "bankAccountNumber": "Bank Account Number",
+  "bestSuitedFor": "Best Suited For",
+  "greetingScreenTitle": "Ready to start your AI revolution?",
+  "greetingScreenSubTitle": "Let's start the training with simple questions!\n\n  Remember - to lose patience is to lose the battle!",
+  "tooltipBotDetailsStartDate": "Lora's date to start the Botstocks",
+  "tooltipBotDetailsInvestmentPeriod": "The duration you set for Botstock where the Bot will automatically buy and sell.",
+  "tooltipBotDetailsEstMaxProfit": "This is the estimated maximum target profit % level for the Bot strategy. The Bot will try to close the trade (sell stocks) and capture profits when profits reach this % level. This is an estimated level.",
+  "tooltipBotDetailsEstMaxLoss": "This is the estimated maximum loss % level for the Bot strategy. The Bot will try to limit losses to this % level. This is an estimated level.",
+  "tooltipBotDetailsEstTakeProfit": "The return % where the Plank Bot will sell to try and capture profits. The Plank Bot will try to close the trade (sell stocks) when the stock reaches this level above your initial investment level.",
+  "tooltipBotDetailsEstStopLoss": "The return % where the Plank Bot will sell try and limit losses. The Plank Bot will try to close the trade (sell stocks) when the stock reaches this level below your initial investment level.",
+  "botTradeBottomSheetAmountMinimum": "You have {availableAmount}, the minimum investment amount is {minimumAmount}.",
+  "@botTradeBottomSheetAmountMinimum": {
+    "placeholders": {
+      "availableAmount": {
+        "type": "String"
+      },
+      "minimumAmount": {
+        "type": "String"
+      }
+    }
+  },
+  "botTradeBottomSheetAmountTitle": "How much are you investing?",
+  "botTradeBottomSheetInsufficientBalanceTitle": "You are running out of money! Fund your account now.",
+  "botTradeBottomSheetInsufficientBalanceSubTitle": "The minimum investment amount is {minimumAmount} per trade.",
+  "@botTradeBottomSheetInsufficientBalanceSubTitle": {
+    "placeholders": {
+      "minimumAmount": {
+        "type": "String"
+      }
+    }
+  },
+  "botTradeBottomSheetAccountNotYetApprovedTitle": "You can trade after your account is approved.",
+  "botTradeBottomSheetAccountNotYetApprovedSubTitle": "Est. to be approved by 2 working days.",
+  "botTradeBottomSheetRolloverDisclosureTitle": "If you extend the Botstock period, you will incur additional fees",
+  "botTradeBottomSheetRolloverDisclosureSubTitle": "You will be charged HKD40 if you want to extend this Botstock. If you do not have enough funds, then your fees will be deducted when you have sufficient buying power",
+  "botTradeBottomSheetRolloverConfirmationTitle": "Your Botstock will be extended for \n\n2 Weeks",
+  "botTradeBottomSheetRolloverConfirmationSubTitle": "The new expiry date is {expiryTime}",
+  "@botTradeBottomSheetRolloverConfirmationSubTitle": {
+    "placeholders": {
+      "expiryTime": {
+        "type": "String"
+      }
+    }
+  },
+  "botTradeBottomSheetEndBotStockConfirmationTitle": "You can end the Botstock now, and all stocks will be sold. Trading of {botInformation} will stop.",
+  "@botTradeBottomSheetEndBotStockConfirmationTitle": {
+    "placeholders": {
+      "botInformation": {
+        "type": "String"
+      }
+    }
+  },
+  "botTradeBottomSheetEndBotStockConfirmationSubTitle": "The total Botstock value will be returned to your \naccount after the next community order.",
+  "botTradeBottomSheetFreeBotStockSuccessfullyAddedTitle": "Your free Botstock has been added to your portfolio!",
+  "botTradeBottomSheetFreeBotStockSuccessfullyAddedSubTitle": "Deposit To Start Trading",
+  "botTradeBottomSheetCancelBotStockConfirmationTitle": "The investment amount and Bot management fee (HKD{amount}) will be returned to your account.",
+  "@botTradeBottomSheetCancelBotStockConfirmationTitle": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "botTradeBottomSheetRolloverConfirmationButton": "Confirm Rollover",
+  "howItWorks": "How It Works",
+  "marketCap": "Market Cap",
+  "prevClose": "Prev Close",
+  "portfolioBuyingPowerToolTip": "Your Buying Power represents the amount of cash that you can use to buy Botstocks. Your Withdrawable Balance and your Buying Power may not always be the same. For example, starting a Botstock will reduce your Buying Power and the amount value will be added to Total Botstock Values. When the Botstock is expired or terminated, the amount will be added to Buying Power and after T + 2, the amount will be also added to Withdrawable Balance. This is called ‘settlement'.",
+  "portfolioDetailPerformanceTitle": "Performance",
+  "portfolioDetailPerformanceBotStockValues": "Botstock Values (HKD)",
+  "portfolioDetailPerformanceInvestmentAmount": "Inv. Amount (HKD)",
+  "portfolioDetailPerformanceTotalPL": "Total P&L",
+  "portfolioCurrentPrice": "Current Price",
+  "portfolioDetailExpiredAt": "Expired at {dateTime}",
+  "@portfolioDetailExpiredAt": {
+    "placeholders": {
+      "dateTime": {
+        "type": "String"
+      }
+    }
+  },
+  "portfolioDetailExpiredIn": "Expired in {dateTime} days",
+  "@portfolioDetailExpiredIn": {
+    "placeholders": {
+      "dateTime": {
+        "type": "String"
+      }
+    }
+  },
+  "portfolioDetailPerformanceNumberOfShares": "No. of Shares",
+  "portfolioDetailPerformanceStockValues": "Stock Values (HKD)",
+  "portfolioDetailPerformanceCash": "Cash (HKD)",
+  "portfolioDetailPerformanceBotAssetsInStock": "Stock Holding %",
+  "portfolioDetailPerformanceNumberOfSharesTooltip": "Indicates how many shares of a company are currently owned by you.",
+  "portfolioDetailKeyInfoTitle": "Key Info",
+  "portfolioDetailKeyInfoDaysTillExpiry": "Days Till Expiry",
+  "portfolioDetailKeyInfoStartTime": "Start Time",
+  "portfolioDetailKeyInfoEndTime": "End Time",
+  "portfolioDetailKeyInfoEstimatedStopLoss": "Est. Stop Loss %",
+  "portfolioDetailKeyInfoEstimatedTakeProfit": "Est. Take Profit %",
+  "portfolioDetailKeyInfoEstimatedMaxLoss": "Est. Max Loss %",
+  "portfolioDetailKeyInfoEstimatedMaxProfit": "Est, Max Profit %",
+  "portfolioDetailKeyInfoBotStockStatus": "Botstock Status",
+  "portfolioDetailKeyInfoBotStockNumberOfRollover": "Number of Rollovers",
+  "portfolioDetailKeyInfoAvgReturn": "Avg. Return",
+  "portfolioDetailKeyInfoAvgLoss": "Avg. Loss",
+  "portfolioDetailKeyInfoAvgPeriod": "Avg. Period (Days)",
+  "portfolioDetailButtonCancelBotStock": "Cancel Botstock",
+  "portfolioDetailButtonEndBotStock": "End Botstock",
+  "portfolioDetailButtonRolloverBotStock": "Rollover Botstock",
+  "portfolioDetailChartEmptyMessage": "Performance data will be available once the Botstock starts",
+  "portfolioDetailChartCaption": "Past {duration} performance of {bot}  ({startDate} - {endDate})",
+  "@portfolioDetailChartCaption": {
+    "placeholders": {
+      "bot": {
+        "type": "String"
+      },
+      "startDate": {
+        "type": "String"
+      },
+      "endDate": {
+        "type": "String"
+      },
+      "duration": {
+        "type": "String"
+      }
+    }
+  },
+  "portfolioTotalValue": "Total Portfolio Value",
+  "portfolioWithdrawableAmount": "Withdrawable Balance ({currency})",
+  "@portfolioWithdrawableAmount": {
+    "placeholders": {
+      "currency": {
+        "type": "String"
+      }
+    }
+  },
+  "portfolioBuyingPower": "Buying Power ({currency})",
+  "@portfolioBuyingPower": {
+    "placeholders": {
+      "currency": {
+        "type": "String"
+      }
+    }
+  },
+  "portfolioTotalBotStock": "Total Botstock Values ({currency})",
+  "@portfolioTotalBotStock": {
+    "placeholders": {
+      "currency": {
+        "type": "String"
+      }
+    }
+  },
+  "createAnAccount": "Create An Account",
+  "backToAccountSettings": "Back to account settings",
+  "existingPassword": "Existing Password",
+  "passwordDoesNotMatch": "Your password does not match.",
+  "passwordChangeSuccess": "Password Change Success",
+  "yourPasswordHasBeenChanged": "Your password has been changed",
+  "enterValidPassword": "Enter valid password",
+  "oldPasswordSameWithNewPasswordError": "Your new password cannot be the same as your old password",
+  "portfolioPopUpCreateAnAccountTitle": "Create an Account and Start Trading!",
+  "portfolioPopUpCreateAnAccountSubTitle": "You can manage all your investments here after you start trading. Create an account and start trading.",
+  "defineInvestmentStyle": "Define Investment Style",
+  "portfolioPopUpDefineInvestmentTitle": "Define Your Investment Style",
+  "portfolioPopUpDefineInvestmentSubTitle": "Looks like you haven't defined your Investment Style yet. Let's go and see what kind of Botstocks suit you best!",
+  "continueAccountOpening": "Continue Account Opening",
+  "portfolioPopUpContinueAccountOpeningTitle": "Continue Account Opening",
+  "portfolioPopUpContinueAccountOpeningSubTitle": "You still need to complete your account opening until you can start trading. ",
+  "ok": "OK!",
+  "portfolioPopUpFundAccountTitle": "Fund your account",
+  "portfolioPopUpFundAccountSubTitle": "Looks like you haven't funded your account yet. Deposit HKD 10,000 to activate your account.",
+  "startABotstock": "Start A Botstock",
+  "portfolioPopUpNoTradingHasStartedTitle": "No trading has started!",
+  "portfolioPopUpNoTradingHasStartedtSubTitle": "You can manage all your investments here after you start trading. ",
+  "portfolioPopUpPendingReviewTitle": "Your Account is Pending Review",
+  "portfolioPopUpPendingReviewSubTitle": "You can manage all your investments here after your account has been opened!",
+  "redeemYourBotstockNow": "Redeem Your Botstock Now",
+  "portfolioPopUpRedeemYourBotstockTitle": "Redeem Your Free Botstock",
+  "portfolioPopUpRedeemYourBotstockSubTitle": "Looks like you haven't claimed your free Botstock yet. Let's get trading right away!",
+  "portfolioTotalPL": "Total P/L",
+  "portfolioYourBotStock": "Your Botstocks",
+  "transactionHistoryTitle": "Transaction History",
+  "transactionHistoryTabAll": "All",
+  "transactionHistoryTabOrders": "Orders",
+  "transactionHistoryTabTransfer": "Transfer",
+  "transactionHistoryToday": "Today",
+  "totalPnlIs": "Total P/L is",
+  "notificationSetting": "Notification Setting",
+  "inApp": "In-App",
+  "industry": "Industry",
+  "investmentPeriod": "Investment Period",
+  "pushNotification": "Push-Notification",
+  "password": "Password",
+  "emailAddress": "Email Address",
+  "signIn": "Sign In",
+  "newPassword": "New Password",
+  "confirmNewPassword": "Confirm New Password",
+  "sectors": "Sector(s)",
+  "signOutConfirmation": "Are you sure you want to sign out ?",
+  "startDate": "Start Date",
+  "version": "Version",
+  "trade": "Trade",
+  "setUpFinancialProfile": "Set Up Financial Profile",
+  "doAnyOfTheFollowingApply": "Do any of the following apply to you or a member of your immediate family ?",
+  "iAmASeniorExecutive": "I am a senior executive at or a 10% or greater shareholder of a publicly traded company.",
+  "iAmASeniorPolitical": "I am a senior political figure.",
+  "iAmAFamily": "I am a family member or relative of a senior political figure.",
+  "iAmADirector": "I am a director/employee/licensed person of a licensed corporation registered with the HK Securities and Futures Commission. (Excluding Lora Advisors Limited)",
+  "yes": "Yes",
+  "no": " No",
+  "saveForLater": "Save For Later",
+  "confirmAndContinue": "Confirm And Continue",
+  "yourBankAccount": "Your Bank Account",
+  "yourBankAccountIsUnderReview": "Your Bank Account is under review and will be complete by {dateTime}",
+  "@yourBankAccountIsUnderReview": {
+    "placeholders": {
+      "dateTime": {
+        "type": "String"
+      }
+    }
+  },
+  "changeBankAccount": "Change Bank Account",
+  "noteOnPaymentDetails": "Note:\nWe will work with your bank in order to idenfity your bank account details (account name, bank code, account number). However, we may require additional details from you for transaction verification purposes.",
+  "yourPaymentInformationIsUnderReview": "Your payment information is under review. Your bank account details will be shown here once your account is approved. please note it can take up to 2 working days for the approval process.",
+  "needHelp": "Need help?",
+  "noTransactions": "No Transactions",
+  "noTransactionsYet": "Looks like you haven’t made \nany transactions yet!",
+  "checkBackLater": "Check back later to see if\nthere are any new\ntransactions!",
+  "performance": "Performance",
+  "milestones": "Milestones",
+  "startInvesting": "Start Investing",
+  "privacyEvaluation": "Privacy Evaluation",
+  "personalisation": "Personalisation",
+  "openInvestmentAccount": "Open Investment Account",
+  "getTheFirstBotstockForFree": "Get the First Botstock for Free",
+  "payDepositToStartRealTrade": "Pay Deposit to Start Real Trade",
+  "tradeWithBots": "Trade with Bots",
+  "introduceBotPlank": "Introduce Bot - Plank",
+  "introduceBotPullup": "Introduce Bot - Pullup",
+  "introduceBotSquat": "Introduce Bot - Squat",
+  "tradeWithYourFirstBotstock": "Trade with Your First Botstock",
+  "masterAiTrading": "Master AI Trading",
+  "learnBotstockManagement": "Learn Botstock Management",
+  "manageYourBotstock": "Manage Your Botstock",
+  "tradeWithANewBotstock": "Trade with a New Botstock",
+  "unableToProcessDepositTitle": "Unable to Process Deposit",
+  "unableToProcessDepositSubTitle": "We're having some trouble processing your deposit request. Please try again",
+  "unableToProcessWithdrawalTitle": "Unable to Process Withdrawal",
+  "unableToProcessWithdrawalSubTitle": "We're having some trouble processing your withdrawal request. Please try again",
+  "status": "Status",
+  "suspendedScreenTitle": "Account Suspended",
+  "suspendedScreenSubTitle": "Your account has been suspended and is pending investigation from us. If you have any questions about your account, please contact our customer service team.",
+  "signUpTitle": "Start your AI revolution with\nAsklora. Go crush it.",
+  "to": "To",
+  "transactionFee": "Transaction fee",
+  "transferTo": "Transfer to",
+  "timeRequested": "Time Requested",
+  "timeCompleted": "Time Completed",
+  "totalAmount": "Total amount",
+  "welcomeScreenTitle": "Get your Investments in Shape",
+  "welcomeScreenSubTitle": "Say Goodbye to bad investing habits and embrace your new AI assistant, Asklora!",
+  "welcomeScreenFirstBenefit": "Guidance from your own personal AI",
+  "welcomeScreenSecondBenefit": "Personalised Experience",
+  "welcomeScreenThirdBenefit": "Automated trading strategies",
+  "withdrawalAmount": "Withdrawal Amount",
+  "withdrawalWorkingDays": "Your withdrawal can take up to 2 working days.",
+  "withdrawalRequestSubmittedTitle": "Withdrawal Request Submitted",
+  "withdrawalRequestSubmittedSubTitle": "You will be informed via email and app notification as soon as the funds are paid to your account.",
+  "withdraw": "Withdraw",
+  "relearn": "relearn",
+  "min": "~{minute} min",
+  "@min": {
+    "placeholders": {
+      "minute": {
+        "type": "String"
+      }
+    }
+  },
+  "viewDepositGuide": "View Deposit Guide",
+  "pressBackAgain": "Press back again to exit Asklora",
+  "reviewYourTradeSummary": "Review your trade summary and hit ",
+  "toExecuteIt": " to execute it!",
+  "hereYouCanFind": "Here, you can find the ",
+  "botStocksDetails": "Botstock’s details and estimated returns.",
+  "thisInteractiveGraph": "This interactive graph shows the Botstock’s past ",
+  "twoWeekPerformance": "2 weeks performance ",
+  "toGiveYou": "to give you a better idea of its trading potential!",
+  "ifYouveGot": "If you’ve got ",
+  "anyQuestion": "any questions ",
+  "aboutYourInvestment": "about your investment, tap this icon to summon your ",
+  "personalAIAssistant": "personal AI assistant Asklora! ",
+  "simplyTypeAQuestion": "Simply type a question and tap the ",
+  "sendIcon": "send icon ",
+  "toStartAConversation": "to start a conversation. Tap the icon again to dismiss Asklora",
+  "tradeSummary": "Trade Summary",
+  "marketPrice": "Market Price",
+  "endDate": "End Date",
+  "confirmTrade": " Confirm Trade",
+  "checkBotStockDetails": "Check Botstock Details",
+  "tradeRequestSubmitted": "Trade Request Submitted",
+  "tradeCancelledTitle": "Trade Cancelled",
+  "tradeCancelledSubtitle": "The trade has been cancelled and your investment amount has been returned to your account",
+  "startBotStockAcknowledgement": "{botName} {botSymbol} will start when the US market opens",
+  "@startBotStockAcknowledgement": {
+    "placeholders": {
+      "botName": {
+        "type": "String"
+      },
+      "botSymbol": {
+        "type": "String"
+      }
+    }
+  },
+  "beforeKYCHeaderTitle": "You are making great\nprogress, {name}!",
+  "@beforeKYCHeaderTitle": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "endBotStockAcknowledgement": "{botName} {botSymbol} will end when the US market opens",
+  "@endBotStockAcknowledgement": {
+    "placeholders": {
+      "botName": {
+        "type": "String"
+      },
+      "botSymbol": {
+        "type": "String"
+      }
+    }
+  },
+  "beforeDepositHeaderTitle": "Just one more step to AI\ngreatness, {name}!",
+  "@beforeDepositHeaderTitle": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "afterPayDepositHeaderTitle": "Your investment account will be ready soon!",
+  "greatStart": "Great start!",
+  "halfWayThere": "Halfway there!",
+  "almostFinished": "Almost finished!",
+  "startInvestingOnMilestone": "Start investing",
+  "depositFundToStartInvesting": "Deposit funds to start investing",
+  "onBoardingCompletionMessage": "You've completed all the steps to opening an account with Asklora! You'll be able to start trading as soon as your account is approved. It usually takes up to 2 business days.",
+  "nextStep": "Next step",
+  "go": "Go",
+  "depositViaFpsOrWireTransfer": "Deposit via FPS or Wire Transfer",
+  "transferAtLeastWithNoMinimumDeposit": "Transfer to Asklora bank account from the same bank account you used.",
+  "transferAtLeastWithMinimumDeposit": "Transfer at least HK${minDeposit} to Asklora's bank account. Any initial deposit less than HK${minDeposit} will be rejected and fees will be charged.",
+  "@transferAtLeastWithMinimumDeposit": {
+    "placeholders": {
+      "minDeposit": {
+        "type": "String"
+      }
+    }
+  },
+  "uploadProofOfRemittance": "Upload proof of remittance",
+  "theProofOfRemittanceShouldShowYourBankAccount": "The proof of remittance should show your bank account number, full name, and amount.",
+  "inputDepositAmount": "Input deposit amount",
+  "theAmountMustMatch": "The amount must match with the actual transferred amount.",
+  "yourDepositCanTakeUp2WorkingDays": "Your deposit can take up to 2 working days",
+  "notes": "Notes",
+  "returningUserDepositNotes": "We will work with your bank in order to identify your bank account details (account name, bank code, account number). However, we may require additional details from you for transaction verification purposes.",
+  "weWillTakeInformationCollectedFromYour": "We will take information collected from your bank via API or submitted remittance advice to determine your designated bank account. All future deposits and withdrawals are accepted ONLY through this designated bank account. You may change the designated bank account but you will need to go through the same verification by way of a minimum HK$ {minDeposit} bank transfer is completed.",
+  "@weWillTakeInformationCollectedFromYour": {
+    "placeholders": {
+      "minDeposit": {
+        "type": "String"
+      }
+    }
+  },
+  "pleaseAddAHkBankAccount": "Please add a HK bank account that is under your name; other people's bank accounts or joint accounts will not be accepted.",
+  "weWillOnlyAcceptDepositViaBankTransfer": "We will only accept deposits via bank transfer (wire/FPS) from your own account.",
+  "weWillOnlyAcceptHKD": "We will only accept HKD.",
+  "transferInitialFundToAsklora": "Transfer initial funds to Asklora",
+  "transferFundToAsklora": "Transfer funds to Asklora",
+  "firstTimeCopyAskloraBankDetails": "Copy Asklora's bank details and transfer no less than HK${minDeposit} from your bank account via FPS or Wire transfer.",
+  "@firstTimeCopyAskloraBankDetails": {
+    "placeholders": {
+      "minDeposit": {
+        "type": "String"
+      }
+    }
+  },
+  "copyAskloraBankDetails": "Copy Asklora's bank details and transfer from your bank account via FPS or Wire transfer.",
+  "theAmountMustMatchWithPor": "The amount must match with the proof of remittance.",
+  "thePorShouldShowYourBank": "The proof of remittance should show your bank account number, full name, and amount.",
+  "pleaseMakeSureYouHaveFinished": "Please make sure you have finished the transfer and then inform us, if not, your deposit will be delayed.",
+  "pleaseMakeSureYouPressSubmit": "Please make sure you press 'SUBMIT' after you have transferred the funds from your bank.",
+  "yourDepositMayBeRejected": "Your deposit may be rejected if the informed amount is different from the actual transferred amount.",
+  "weAcceptHKDOnly": "We accept HKD only.",
+  "buttonSubmit": "Submit",
+  "min8Character": "min. 8 characters",
+  "atLeast1Lowercase": "at least 1 lowercase letter",
+  "atLeast1Uppercase": "at least 1 upper case letter",
+  "atLeast1Number": "at least 1 number",
+  "readyToGo": "Ready to go?",
+  "invalidPassword": "Invalid Password",
+  "signAgreements": "Sign Agreements",
+  "licenseeName": "Licensee: Chang Yung Ching",
+  "licenseeNumber": "CE No.: AFF918",
+  "riskDisclosureStatementLabel": "Risk Disclosure Statement",
+  "riskDisclosureStatementString": "1. The prices of securities fluctuate, sometimes dramatically. The price of a security may move up or down, and may become valueless. It is as likely that losses will be incurred rather than profit made as a result of buying and selling securities. Investors should not only base on this marketing material to make any investment decision, you should carefully consider whether the investment products or services are suitable for you according to your investment experience, purpose, risk tolerance, financial or related conditions. If you have any questions, please contact us or obtain independent advice.\n\n2. Investment in foreign securities carries additional risks not generally associated with securities in the domestic market. The value or income of foreign securities may be more volatile and could be adversely affected by changes in currency rates of exchange, foreign taxation practices, foreign laws, government practices, regulations, and political events. You may find it more difficult to liquidate investments in foreign securities where they have limited liquidity in the relevant market. Foreign laws, government practices, and regulations may also affect the transferability of foreign securities. Timely and reliable information about the value or the extent of the risks of foreign securities may not be readily available at all times.\n\n3. You acknowledge that you have fully understood the implications of the risks associated with the Electronic Trading Service as set out in the Client Agreement",
+  "riskDisclosureStatementAcknowledgement": "I have read, understood, and agree with the Risk Disclosure Statement.",
+  "personalInfo": "Personal Info",
+  "financialProfile": "Financial Profile",
+  "agreements": "Agreements",
+  "submitApplication": "Submit Application",
+  "summaryAgreementInformation": "The agreements will become binding subject to the approval of the information submitted by you. \n\nIf there is a material change to this information, please contact loracares@asklora.ai as soon as possible",
+  "enterANewPassword": "Enter a new password",
+  "resetPassword": "Reset Password",
+  "passwordLinkHasBeenSent": "A Password reset email has been sent. Please check your email",
+  "inputWrongEmailAddress": "Input wrong email address",
+  "cannotRememberEmailAddress": "Can’t remember your email address?\nEmail us at cs@asklora.ai",
+  "forgotPassword": "Forgot Password",
+  "forgotPasswordMessage": "Please enter your email. Instructions will be sent to reset your password.",
+  "resetPasswordSuccessful": "Password Reset Successful",
+  "resetPasswordSuccessfulMessage": "Your password has been reset. Please go back to the Login page and login again.",
+  "backToLogin": "Back To Login",
+  "askloraYouUltimateFinancialAdvisor": "Asklora.\n Your ultimate\nfinancial advisor",
+  "askMeAnythingRelatedToFinance": "Ask me anything related to finance",
+  "investmentResultScreenTitle": "I like your style",
+  "investmentResultScreenDescription": "You're one step closer to AI Investing. \n\nTime to open your account.",
+  "privacyFailedScreenTitle": "I'm afraid you're not eligible for Asklora yet.",
+  "privacyFailedScreenDescription": "Most likely, your risk score is too low to meet SFC requirements.\n\nIf you made a mistake and did not answer the questions correctly, please try again.",
+  "privacySuccessScreenTitle": "I appreciate your honesty.",
+  "privacySuccessScreenDescription": "Age is just a number, but your personality is what sets you apart.\n\nAnswer a few personality questions, and I'll help you find investments that fit your style.",
+  "buttonTryAgain": "Try Again",
+  "buttonSure": "Sure",
+  "personalizationResultScreenTitle": "Alright!\n\nBased on your answers, my technology is perfect for you and you can take on more risks.",
+  "opennessLessThan8": "investing can be simple with AI",
+  "opennessMoreThan8": "our technology is perfect for you",
+  "neuroticismLessThan8": "we think you can take on more risk.",
+  "neuroticismMoreThan8": "we think you should take on less risk.",
+  "extrovertLessThan8": "You also seem to be a bit more reserved. But hey, introverts change the world!",
+  "extrovertMoreThan8": "You also seem like a social butterfly - amplify that energy!",
+  "active": "Active",
+  "pending": "Pending",
+  "botRecommendationScreenTitle": "Investments tailored  for you",
+  "notFeelingIt": "Not feeling it? Try something different.",
+  "askloraWireDetails": "Asklora's Wire Details",
+  "buttonViewDetails": "View Details",
+  "wireTransfer": "Wire Transfer",
+  "bankNumber": "Bank Number",
+  "accountNumber": "Account Number",
+  "bankName": "Bank Name",
+  "swiftCode": "Swift Code",
+  "accountName": "Account Name",
+  "companyAddress": "Company Address",
+  "exchangeRateInDepositScreen": "Current Exchange Rate: HKD 1 = USD 0.137 (at HKT {time})",
+  "@exchangeRateInDepositScreen": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "errorStoringData": "Error Storing Data",
+  "errorStoringDataDetails": "Oops! We're having some technical difficulties trying to store your responses. Let's try retaking the questions",
+  "emailNotExist": "User does not exist with the given email",
+  "emailNotVerified": "User email is not verified",
+  "enterValidEmail": "Enter valid email",
+  "passwordChangeSuccessfully": "Password changed successfully.",
+  "tokenInvalid": "Token is invalid or expired.",
+  "invalidOtp": "Invalid OTP",
+  "linkPasswordResetIsSent": "Link for Password reset is sent to email.",
+  "accountIsNotActive": "Your account is not active yet.",
+  "pleaseEnterYouEmail": "Please enter your email. Instructions will be sent to reset your password.",
+  "cantRememberYourEmail": "Can't remember your email address?\nEmail us at help@asklora.ai",
+  "inputWrongEmail": "Input wrong email address",
+  "resultOfPersonalizationQuestion": "Based on your answer, {opennessScore} and {neuroticismScore}\n\n{extrovertScore}",
+  "@resultOfPersonalizationQuestion": {
+    "placeholders": {
+      "opennessScore": {
+        "type": "String"
+      },
+      "neuroticismScore": {
+        "type": "String"
+      },
+      "extrovertScore": {
+        "type": "String"
+      }
+    }
+  },
+  "defineAgain": "Define again",
+  "updatedAt": "Updated at {updated}",
+  "@updatedAt": {
+    "placeholders": {
+      "updated": {
+        "type": "String"
+      }
+    }
+  },
+  "otpScreenTitle": "Mobile OTP",
+  "otpScreenDescription": "We've sent you a code via SMS to verify your phone number (+852 {phoneNumber}). Please enter the OTP code below.",
+  "@otpScreenDescription": {
+    "placeholders": {
+      "phoneNumber": {
+        "type": "String"
+      }
+    }
+  },
+  "buttonVerify": "Verify",
+  "otpSentToYourPhone": "OTP SMS is sent to your phone",
+  "verifyOtpSuccess": "Verify OTP Success",
+  "otpSentToYourEmail": "OTP code sent to your email",
+  "otpDigit": "000000 (6 digit)",
+  "sendOtp": "SEND OTP",
+  "reSendOtp": "RE-SEND IN {seconds}S",
+  "@reSendOtp": {
+    "placeholders": {
+      "seconds": {
+        "type": "String"
+      }
+    }
+  },
+  "aiIsqWelcomeTitle": "It's time to find out your investment preferences",
+  "aiIsqWelcomeSubTitle": "Let's see what kind of stocks you prefer",
+  "isqNextButton": "Please press to proceed to the next question",
+  "cancelled": "Cancelled",
+  "expired": "Expired",
+  "rejected": "Rejected",
+  "completed": "Completed",
+  "buy": "Buy",
+  "sell": "Sell",
+  "depositHistory": "Deposit History",
+  "withdrawalHistory": "Withdrawal History",
+  "kycRejectedScreenTitle": "Sorry ! You are not eligible for Asklora",
+  "kycRejectedExplanationOfAffiliate": "We do not accept any members who are affiliated with the organisations mentioned above",
+  "buttonGoBack": "Go Back",
+  "employment": "Employment",
+  "employmentStatus": "Employment Status",
+  "employed": "Employed",
+  "selfEmployed": "Self-Employed",
+  "retired": "Retired",
+  "student": "Student",
+  "businessOwner": "Business Owner",
+  "homeMaker": "Homemaker",
+  "unEmployed": "Unemployed",
+  "homeTrader": "At-Home Trader",
+  "unknown": "Unknown",
+  "natureOfBusiness": "Nature of Business",
+  "natureOfBusinessDesc": "Nature of Business description",
+  "architectureEngineering": "Architecture / Engineering",
+  "artDesign": "Arts / Design",
+  "businessNonFinance": "Business, Non-Finance",
+  "communitySocialService": "Community / Social Service",
+  "computerInformationTechnology": "Computer / Information Technology",
+  "construction": "Construction",
+  "educationTrainingLibrary": "Education / Training / Library",
+  "farmingFishingForestry": "Farming, Fishing and Forestry",
+  "financeBrokerDealerBank": "Finance/ Broker Dealer /Bank",
+  "foodBeverage": "Food and Beverage",
+  "healthcare": "Healthcare",
+  "installationMaintenanceRepair": "Installation, Maintenance, and Repair",
+  "legal": "Legal",
+  "lifePhysicalSocialService": "Life, Physical and Social Service",
+  "mediaCommunications": "Media and Communications",
+  "lawEnforcementGovernmentProtectiveService": "Law Enforcement, Government, Protective Service",
+  "personalCareService": "Personal Care / Service",
+  "productionManufacturing": "Production and Manufacturing",
+  "transportationMaterialMoving": "Transportation and Material Moving",
+  "other": "Other",
+  "sourceOfWealth": "Source of Wealth",
+  "accountOpeningAndDeposit": "Account opening and deposit are the last few steps before investing.",
+  "getReadyForTrading": "Get ready for AI trading.",
+  "setupPersonalInfo": "Set up Personal Info",
+  "verifyIdentity": "Verify identity",
+  "theItemYouWillNeed": "The items you will need…",
+  "hkId": "HKID",
+  "porAddress": "Proof of Residential Address",
+  "weAcceptUtilityBill": "(We accept utility bill, bank statement, or government correspondence within the last 3 months)",
+  "onceYouHaveStarted": "Once you've started, you can resume the process whenever you want.",
+  "openAccountNow": "Open Account Now",
+  "usResidentQuestion": "Are you a United States tax resident, green card holder, or citizen?",
+  "hkResidentQuestion": "Are you a Hong Kong resident? By clicking yes, you acknowledge that you are also a Hong Kong tax resident",
+  "personalInfoFormDesc": "Please make sure your name matches the information on your identification document.",
+  "legalFirstName": "Legal English First Name",
+  "legalLastName": "Legal English Last Name",
+  "hkIdNumber": "HKID Number",
+  "nationality": "Nationality",
+  "dateOfBirth": "Date of Birth",
+  "countryOfBirth": "Country of Birth",
+  "hkPhoneNo": "HK Phone Number",
+  "pleaseProvideYourResidentialAddress": "Please provide your residential address. This will also be your mailing address.",
+  "uploadAddressProof": "Upload Address Proof",
+  "yourAddressProofMustContainFullName": "Your address proof must contain your full name, full residential address and the issuing agency.\n\nWe accept water/electricity/gas bills, bank statement, or government correspondence within the last 3 months.",
+  "addressProof": "Address Proof",
+  "pleaseSelect": "Please Select",
+  "subscription": "Subscription",
+  "pleaseReadTheAskloraCustomerAgreement": "Please read the the Asklora Customer Agreement. You must click on the agreement and check all the boxes in order to proceed.",
+  "iHaveReadAndAgreed": "I have read, understood, and agree to be bound by LORA Advisors Limited’s account terms, and all other terms, disclosures and disclaimers applicable to me.",
+  "iUnderstandSigningAgreement": "I understand I am signing this agreement electronically, and that my electronic signature will have the same effect as physically signing and returning the Customer Agreement.",
+  "AskloraAgreementFile": "Asklora Customer Agreement.pdf",
+  "taxAgreementDesc1": "Under penalties of perjury, I declare that I have examined the information in lines 1-7 and to the best of my knowledge and belief it is true, correct, and complete. I further certify under penalties of perjury that:",
+  "taxAgreementDescPoint1": "I am the individual that is the beneficial owner (or am authorized to sign for the individual that is the beneficial owner) of all the income or proceeds to which this form relates or am using this form to document myself for chapter 4 purposes;",
+  "taxAgreementDescPoint2": "The person named on line 1 of this form is not a U.S. person;",
+  "taxAgreementDescPoint3": "This form relates to:",
+  "taxAgreementDescPoint3SubPoint1": "income not effectively connected with the conduct of a trade or business in the United States;",
+  "taxAgreementDescPoint3SubPoint2": "income effectively connected with the conduct of a trade or business in the United States but is not subject to tax under an applicable income tax treaty;",
+  "taxAgreementDescPoint3SubPoint3": "the partner's share of a partnership's effectively connected taxable income;",
+  "taxAgreementDescPoint3SubPoint4": "or the partner's amount realized from the transfer of a partnership interest subject to withholding under section 1446(f);",
+  "taxAgreementDescPoint4": "The person named on line 1 of this form is a resident of the treaty country listed on line 9 of the form (if any) within the meaning of the income tax treaty between the United States and that country;",
+  "taxAgreementDescPoint5": "and For broker transactions or barter exchanges, the beneficial owner is an exempt foreign person as defined in the instructions to IRS Form W-8BEN.",
+  "taxAgreementDesc2": "Furthermore, I authorize this form to be provided to any withholding agent that has control, receipt, or custody of the income of which I am the beneficial owner or any withholding agent that can disburse or make payments of the income of which I am the beneficial owner. I agree I will submit a new form within 30 days if any certification made on this form becomes incorrect.",
+  "taxAgreementDesc3": "The US Internal Revenue Service does not require your consent to any provisions of this document other than the certifications required to establish your status as a non-U.S. person, and if applicable, obtain a reduced rate of witholding.",
+  "taxAgreementCheckboxDesc": "By checking this box, you consent to the collection and distribution of tax forms in an electronic format in lieu of paper",
+  "taxAgreementSignatureTitle": "Signature",
+  "taxAgreementSignatureDesc": "By typing my signature and clicking ‘Agree’ below, I confirm that:",
+  "taxAgreementSignatureDescPoint1": "(1) All information and/or documentation provided by me during the account application process is accurate, complete and up-to-date; ",
+  "taxAgreementSignatureDescPoint2": "(2) I have read and understood all of the information provided to me by LORA Advisors;",
+  "taxAgreementSignatureDescPoint3": "(3) I consent and agree to the terms of all the above agreements and disclosures provided to me during the account application process: and",
+  "taxAgreementSignatureDescPoint4": "(4) I understand and agree that my electronic signature is the legal equivalent of a manual written signature.",
+  "signInElectronically": "Sign this electronically by typing your name exactly as shown below.",
+  "acceptedSignature": "Accepted signature(s):",
+  "askloraCustomerAgreement": "Asklora Customer Agreement",
+  "riskDisclosureStatement": "Risk Disclosure Statement",
+  "w8benForm": "W-8BEN Form",
+  "formW8ben": "Form W-8BEN",
+  "agreed": "Agreed",
+  "weNeedToVerifyYourId": "We'll need to verify your identity via your HKID.",
+  "getReadyForTheVerification": "Get ready for the verification process. You will..",
+  "takePhotoFront": "Take a photo of the front of your HKID",
+  "takePhotoBack": "Take a photo of the front of your HKID",
+  "takeSelfie": "Take a selfie",
+  "verifyNow": "Verify Now",
+  "kycResultScreenTitle": "Your investment account application is under review!",
+  "kycResultScreenDesc": "You will be informed when your application is approved.\n\nPlease remember to collect your gift.",
+  "depositFund": "Deposit Funds",
+  "botManagementFeeTooltip": "The Bot management fee is the monthly fee that you pay for a Bot (HKD40). If you’re on the Core Plan, then there are no management fees, as it’s included in your subscription!",
+  "ourPersonalisedRecommendationsAreUnique": "Our personalised recommendations are unique. The recommended Botstocks are based on your risk tolerance, personality, and investment style.",
+  "generalSettings": "General Settings",
+  "notTheStockYouWereLooking": "Not the stocks you were looking for?",
+  "botExplanationScreenTitle": "A Botstock is a combination of a stock and a Bot. A Bot is a unique AI trading strategy will automatically manage your investment for you.",
+  "botStockExplanationScreenBottomButton": "Got it!",
+  "botStockDoScreenTitle": "A 'Bot' is your personal AI manager that trades your stock for you.",
+  "botStockDoScreenPoint1": "Hit a home run!",
+  "botStockDoScreenPoint2": "Simple and easy!",
+  "botStockDoScreenPoint3": "Passive income!",
+  "buttonGotIt": "Got it!",
+  "understood": "Understood!",
+  "botStockWelcomeScreenTitle": "You're all set!\nLet's begin a real AI trade!",
+  "botStockWelcomeScreenBottomButton": "Sure! What is a Botstock?",
+  "pressToRedoISQ": "Press to redo ISQ",
+  "seeMyRecommendations": "See My Recommendations",
+  "startAgain": "Start Again",
+  "botTradeBottomSheetAmountMinimumFirst": "You have {availableAmount},",
+  "@botTradeBottomSheetAmountMinimumFirst": {
+    "placeholders": {
+      "availableAmount": {
+        "type": "String"
+      }
+    }
+  },
+  "botTradeBottomSheetAmountMinimumSecond": " the minimum investment amount is {minimumAmount}.",
+  "@botTradeBottomSheetAmountMinimumSecond": {
+    "placeholders": {
+      "minimumAmount": {
+        "type": "String"
+      }
+    }
+  },
+  "ppiGotIt": "Got It",
+  "giftBotStockMessageScreenTitle": "Every trade is unique, each time you invest with a new Botstock, I'll ask you some investment style questions to tailor new recommendations! ",
+  "giftBotStockMessageScreenBottomButton": "See my recommendations",
+  "goToPortfolio": "Go To Portfolio",
+  "startAnotherInvestments": "Start another investment",
+  "botValues": "Bot Values",
+  "botRecommendationTutorialDesc1": "Here are ",
+  "botRecommendationTutorialDesc2": "your unique recommendations ",
+  "botRecommendationTutorialDesc3": "based on how you answered the ISQ section",
+  "portfolioDetailPerformanceBotAssetsInStockTooltip": "Represents how much stock the bot is holding in terms of %. For example, for a HKD10,000 investment, if your Stock Values are HKD4,000 and your Cash is HKD6,000, your Stock Holding % is 40%.",
+  "tooltipDescOfTickerDetailsTutorial": "Here's a brief description of the bot and stock you've chosen",
+  "tapAnyWhere": "Tap anywhere to continue",
+  "youCanClickOn": "You can click on ",
+  "tellMeMore": "Tell Me More",
+  "toOpenLora": " to open Lora and get more details about your investment!",
+  "letsTrade": "LET'S TRADE",
+  "requestedToEnd": "Requested To End",
+  "userNotFound": "User Not Found",
+  "timeForInvestmentStyleQuestion": "Now for the Investment Style Questions (ISQ)! These questions will feel more ChatGPT style.",
+  "isqWillHelpMeUnderstandWhatKindOfStocks": "Through our chat-style dialogue, we'll grasp your investment interests to tailor botstock recommendations for you.",
+  "rememberYouCan": "Remember, you can always ",
+  "clickOnLora": "click on Lora ",
+  "toAskAnyOtherQuestion": "to ask any other questions you might have",
+  "useThe": "Use the",
+  "navBar": "nav bar",
+  "toGoToDifferentPages": "to go to different pages.",
+  "left": "Left",
+  "recommendations": "Recommendations",
+  "middle": "Middle",
+  "LoraAi": "Lora AI",
+  "right": "Right",
+  "portfolio": "Portfolio",
+  "throughoutYourInvestmentJourney": "Throughout your investment journey, you’ll see Lora on your bottom nav bar. Click on Lora at anytime to get advice or to ask anything related to finance.",
+  "letsGo": "Let’s Go",
+  "isq": " - (ISQ) ",
+  "interactive": " - (Interactive) ",
+  "botStockExplanationScreenTitle": "You pick the stock, and the 'Bot' will trade it for you!"
+}

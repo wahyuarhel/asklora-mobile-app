@@ -1,0 +1,1028 @@
+{
+  "ui_data": [
+    {
+      "text": "Tesla is a retail favorite and cult of Elon is growing. Asklora recommends a 3 month Pullup bostock for 10,000 here",
+      "options": [],
+      "date": "2021-09-16",
+      "button_label": "See Bot Trade"
+    },
+    {
+      "text": "Stock is up 15% and our botstock has also earned more than 5%, should we ",
+      "options": [
+        {
+          "index": 0,
+          "text": "sell our shares",
+          "info_text": "You trade like a PRO! Lora automatically manages a Pullup strategy, which is like a trend following strategy until a take profit level is hit."
+        },
+        {
+          "index": 1,
+          "text": "continue investing?",
+          "info_text": "Sometimes you need to follow the trend, Lora will automatically sell if the stock drops to protect you from volatile markets."
+        }
+      ],
+      "date": "2021-10-19",
+      "button_label": null
+    },
+    {
+      "text": "Although Tesla wound up going slightly higher, it promptly dropped below 300 within THREE months. Lora locked in a 29% return without taking much risks.",
+      "options": [],
+      "date": "2022-02-28",
+      "button_label": "Back To Home"
+    }
+  ],
+  "bot_data": [
+    {
+      "bot_id": "UNO_OTM_025",
+      "ticker": "TSLA.O",
+      "hedge_date": "2021-09-16",
+      "hedge_price": 252.33,
+      "hedge_share": 0.0,
+      "hedge_value": 10002.52754,
+      "hedge_status": "Hold",
+      "hedge_return": 0.000252754,
+      "price_return": 0.001547988,
+      "target_max_loss_level": 216.8264433,
+      "target_profit_level": 357.7591756
+    },
+    {
+      "bot_id": "UNO_OTM_025",
+      "ticker": "TSLA.O",
+      "hedge_date": "2021-09-17",
+      "hedge_price": 253.16,
+      "hedge_share": 0.0,
+      "hedge_value": 10007.89672,
+      "hedge_status": "Hold",
+      "hedge_return": 0.000789672,
+      "price_return": 0.004842423,
+      "target_max_loss_level": 216.8264433,
+      "target_profit_level": 357.7591756
+    },
+    {
+      "bot_id": "UNO_OTM_025",
+      "ticker": "TSLA.O",
+      "hedge_date": "2021-09-20",
+      "hedge_price": 243.39,
+      "hedge_share": -2.0171,
+      "hedge_value": 9944.695571,
+      "hedge_status": "Sell",
+      "hedge_return": -0.005530443,
+      "price_return": -0.033936652,
+      "target_max_loss_level": 216.8264433,
+      "target_profit_level": 357.7591756
+    },
+    {
+      "bot_id": "UNO_OTM_025",
+      "ticker": "TSLA.O",
+      "hedge_date": "2021-09-21",
+      "hedge_price": 246.46,
+      "hedge_share": 0.0,
+      "hedge_value": 9958.362597,
+      "hedge_status": "Hold",
+      "hedge_return": -0.00416374,
+      "price_return": -0.021751211,
+      "target_max_loss_level": 216.8264433,
+      "target_profit_level": 357.7591756
+    },
+    {
+      "bot_id": "UNO_OTM_025",
+      "ticker": "TSLA.O",
+      "hedge_date": "2021-09-22",
+      "hedge_price": 250.65,
+      "hedge_share": 0.0,
+      "hedge_value": 9977.015639,
+      "hedge_status": "Hold",
+      "hedge_return": -0.002298436,
+      "price_return": -0.005120267,
+      "target_max_loss_level": 216.8264433,
+      "target_profit_level": 357.7591756
+    },
+    {
+      "bot_id": "UNO_OTM_025",
+      "ticker": "TSLA.O",
+      "hedge_date": "2021-09-23",
+      "hedge_price": 251.21,
+      "hedge_share": 0.0,
+      "hedge_value": 9979.508647,
+      "hedge_status": "Hold",
+      "hedge_return": -0.002049135,
+      "price_return": -0.002897515,
+      "target_max_loss_level": 216.8264433,
+      "target_profit_level": 357.7591756
+    },
+    {
+      "bot_id": "UNO_OTM_025",
+      "ticker": "TSLA.O",
+      "hedge_date": "2021-09-24",
+      "hedge_price": 258.13,
+      "hedge_share": 4.1577,
+      "hedge_value": 10010.3151,
+      "hedge_status": "Buy",
+      "hedge_return": 0.00103151,
+      "price_return": 0.024569342,
+      "target_max_loss_level": 216.8264433,
+      "target_profit_level": 357.7591756
+    },
+    {
+      "bot_id": "UNO_OTM_025",
+      "ticker": "TSLA.O",
+      "hedge_date": "2021-09-27",
+      "hedge_price": 263.79,
+      "hedge_share": 3.7528,
+      "hedge_value": 10059.04487,
+      "hedge_status": "Buy",
+      "hedge_return": 0.005904487,
+      "price_return": 0.047035008,
+      "target_max_loss_level": 216.8264433,
+      "target_profit_level": 357.7591756
+    },
+    {
+      "bot_id": "UNO_OTM_025",
+      "ticker": "TSLA.O",
+      "hedge_date": "2021-09-28",
+      "hedge_price": 259.19,
+      "hedge_share": -2.0162,
+      "hedge_value": 10002.17829,
+      "hedge_status": "Sell",
+      "hedge_return": 0.000217829,
+      "price_return": 0.028776693,
+      "target_max_loss_level": 216.8264433,
+      "target_profit_level": 357.7591756
+    },
+    {
+      "bot_id": "UNO_OTM_025",
+      "ticker": "TSLA.O",
+      "hedge_date": "2021-09-29",
+      "hedge_price": 260.44,
+      "hedge_share": 0.0,
+      "hedge_value": 10015.11092,
+      "hedge_status": "Hold",
+      "hedge_return": 0.001511092,
+      "price_return": 0.033738192,
+      "target_max_loss_level": 216.8264433,
+      "target_profit_level": 357.7591756
+    },
+    {
+      "bot_id": "UNO_OTM_025",
+      "ticker": "TSLA.O",
+      "hedge_date": "2021-09-30",
+      "hedge_price": 258.49,
+      "hedge_share": 0.0,
+      "hedge_value": 9994.936023,
+      "hedge_status": "Hold",
+      "hedge_return": -0.000506398,
+      "price_return": 0.025998254,
+      "target_max_loss_level": 216.8264433,
+      "target_profit_level": 357.7591756
+    },
+    {
+      "bot_id": "UNO_OTM_025",
+      "ticker": "TSLA.O",
+      "hedge_date": "2021-10-01",
+      "hedge_price": 258.41,
+      "hedge_share": 0.0,
+      "hedge_value": 9994.108335,
+      "hedge_status": "Hold",
+      "hedge_return": -0.000589167,
+      "price_return": 0.025680718,
+      "target_max_loss_level": 216.8264433,
+      "target_profit_level": 357.7591756
+    },
+    {
+      "bot_id": "UNO_OTM_025",
+      "ticker": "TSLA.O",
+      "hedge_date": "2021-10-04",
+      "hedge_price": 260.51,
+      "hedge_share": 0.0,
+      "hedge_value": 10015.83515,
+      "hedge_status": "Hold",
+      "hedge_return": 0.001583514,
+      "price_return": 0.034016036,
+      "target_max_loss_level": 216.8264433,
+      "target_profit_level": 357.7591756
+    },
+    {
+      "bot_id": "UNO_OTM_025",
+      "ticker": "TSLA.O",
+      "hedge_date": "2021-10-05",
+      "hedge_price": 260.2,
+      "hedge_share": 0.0,
+      "hedge_value": 10012.62785,
+      "hedge_status": "Hold",
+      "hedge_return": 0.001262785,
+      "price_return": 0.032785584,
+      "target_max_loss_level": 216.8264433,
+      "target_profit_level": 357.7591756
+    },
+    {
+      "bot_id": "UNO_OTM_025",
+      "ticker": "TSLA.O",
+      "hedge_date": "2021-10-06",
+      "hedge_price": 260.92,
+      "hedge_share": 0.0,
+      "hedge_value": 10020.07705,
+      "hedge_status": "Hold",
+      "hedge_return": 0.002007705,
+      "price_return": 0.035643407,
+      "target_max_loss_level": 216.8264433,
+      "target_profit_level": 357.7591756
+    },
+    {
+      "bot_id": "UNO_OTM_025",
+      "ticker": "TSLA.O",
+      "hedge_date": "2021-10-07",
+      "hedge_price": 264.54,
+      "hedge_share": 2.1362,
+      "hedge_value": 10057.52993,
+      "hedge_status": "Buy",
+      "hedge_return": 0.005752993,
+      "price_return": 0.050011908,
+      "target_max_loss_level": 216.8264433,
+      "target_profit_level": 357.7591756
+    },
+    {
+      "bot_id": "UNO_OTM_025",
+      "ticker": "TSLA.O",
+      "hedge_date": "2021-10-08",
+      "hedge_price": 261.83,
+      "hedge_share": -2.2707,
+      "hedge_value": 10023.7029,
+      "hedge_status": "Sell",
+      "hedge_return": 0.002370289,
+      "price_return": 0.039255378,
+      "target_max_loss_level": 216.8264433,
+      "target_profit_level": 357.7591756
+    },
+    {
+      "bot_id": "UNO_OTM_025",
+      "ticker": "TSLA.O",
+      "hedge_date": "2021-10-11",
+      "hedge_price": 263.98,
+      "hedge_share": 0.8713,
+      "hedge_value": 10045.65784,
+      "hedge_status": "Buy",
+      "hedge_return": 0.004565783,
+      "price_return": 0.047789156,
+      "target_max_loss_level": 216.8264433,
+      "target_profit_level": 357.7591756
+    },
+    {
+      "bot_id": "UNO_OTM_025",
+      "ticker": "TSLA.O",
+      "hedge_date": "2021-10-12",
+      "hedge_price": 268.57,
+      "hedge_share": 3.1997,
+      "hedge_value": 10096.52835,
+      "hedge_status": "Buy",
+      "hedge_return": 0.009652835,
+      "price_return": 0.06600778,
+      "target_max_loss_level": 216.8264433,
+      "target_profit_level": 357.7591756
+    },
+    {
+      "bot_id": "UNO_OTM_025",
+      "ticker": "TSLA.O",
+      "hedge_date": "2021-10-13",
+      "hedge_price": 270.36,
+      "hedge_share": 0.8343,
+      "hedge_value": 10122.0942,
+      "hedge_status": "Buy",
+      "hedge_return": 0.01220942,
+      "price_return": 0.073112646,
+      "target_max_loss_level": 216.8264433,
+      "target_profit_level": 357.7591756
+    },
+    {
+      "bot_id": "UNO_OTM_025",
+      "ticker": "TSLA.O",
+      "hedge_date": "2021-10-14",
+      "hedge_price": 272.77,
+      "hedge_share": 1.6942,
+      "hedge_value": 10158.52593,
+      "hedge_status": "Buy",
+      "hedge_return": 0.015852593,
+      "price_return": 0.082678415,
+      "target_max_loss_level": 216.8264433,
+      "target_profit_level": 357.7591756
+    },
+    {
+      "bot_id": "UNO_OTM_025",
+      "ticker": "TSLA.O",
+      "hedge_date": "2021-10-15",
+      "hedge_price": 281.01,
+      "hedge_share": 7.0097,
+      "hedge_value": 10297.04939,
+      "hedge_status": "Buy",
+      "hedge_return": 0.029704939,
+      "price_return": 0.115384615,
+      "target_max_loss_level": 216.8264433,
+      "target_profit_level": 357.7591756
+    },
+    {
+      "bot_id": "UNO_OTM_025",
+      "ticker": "TSLA.O",
+      "hedge_date": "2021-10-18",
+      "hedge_price": 290.04,
+      "hedge_share": 6.8154,
+      "hedge_value": 10512.15122,
+      "hedge_status": "Buy",
+      "hedge_return": 0.051215122,
+      "price_return": 0.151226482,
+      "target_max_loss_level": 216.8264433,
+      "target_profit_level": 357.7591756
+    },
+    {
+      "bot_id": "UNO_OTM_025",
+      "ticker": "TSLA.O",
+      "hedge_date": "2021-10-19",
+      "hedge_price": 288.09,
+      "hedge_share": 0.0,
+      "hedge_value": 10452.41063,
+      "hedge_status": "Hold",
+      "hedge_return": 0.045241063,
+      "price_return": 0.143486544,
+      "target_max_loss_level": 216.8264433,
+      "target_profit_level": 357.7591756
+    },
+    {
+      "bot_id": "UNO_OTM_025",
+      "ticker": "TSLA.O",
+      "hedge_date": "2021-10-20",
+      "hedge_price": 288.6,
+      "hedge_share": 0.0,
+      "hedge_value": 10468.03509,
+      "hedge_status": "Hold",
+      "hedge_return": 0.046803509,
+      "price_return": 0.145510836,
+      "target_max_loss_level": 216.8264433,
+      "target_profit_level": 357.7591756
+    },
+    {
+      "bot_id": "UNO_OTM_025",
+      "ticker": "TSLA.O",
+      "hedge_date": "2021-10-21",
+      "hedge_price": 298.0,
+      "hedge_share": 4.2686,
+      "hedge_value": 10756.01537,
+      "hedge_status": "Buy",
+      "hedge_return": 0.075601537,
+      "price_return": 0.182821307,
+      "target_max_loss_level": 216.8264433,
+      "target_profit_level": 357.7591756
+    },
+    {
+      "bot_id": "UNO_OTM_025",
+      "ticker": "TSLA.O",
+      "hedge_date": "2021-10-22",
+      "hedge_price": 303.23,
+      "hedge_share": 0.0,
+      "hedge_value": 10938.56747,
+      "hedge_status": "Hold",
+      "hedge_return": 0.093856747,
+      "price_return": 0.203580218,
+      "target_max_loss_level": 216.8264433,
+      "target_profit_level": 357.7591756
+    },
+    {
+      "bot_id": "UNO_OTM_025",
+      "ticker": "TSLA.O",
+      "hedge_date": "2021-10-25",
+      "hedge_price": 341.62,
+      "hedge_share": 1.0,
+      "hedge_value": 12278.56275,
+      "hedge_status": "Buy",
+      "hedge_return": 0.227856275,
+      "price_return": 0.355957768,
+      "target_max_loss_level": 216.8264433,
+      "target_profit_level": 357.7591756
+    },
+    {
+      "bot_id": "UNO_OTM_025",
+      "ticker": "TSLA.O",
+      "hedge_date": "2021-10-26",
+      "hedge_price": 339.48,
+      "hedge_share": 0.0,
+      "hedge_value": 12201.72647,
+      "hedge_status": "Hold",
+      "hedge_return": 0.220172647,
+      "price_return": 0.347463682,
+      "target_max_loss_level": 216.8264433,
+      "target_profit_level": 357.7591756
+    },
+    {
+      "bot_id": "UNO_OTM_025",
+      "ticker": "TSLA.O",
+      "hedge_date": "2021-10-27",
+      "hedge_price": 345.95,
+      "hedge_share": 0.0,
+      "hedge_value": 12434.03053,
+      "hedge_status": "Hold",
+      "hedge_return": 0.243403053,
+      "price_return": 0.373144399,
+      "target_max_loss_level": 216.8264433,
+      "target_profit_level": 357.7591756
+    },
+    {
+      "bot_id": "UNO_OTM_025",
+      "ticker": "TSLA.O",
+      "hedge_date": "2021-10-28",
+      "hedge_price": 359.01,
+      "hedge_share": -35.9048,
+      "hedge_value": 12902.94722,
+      "hedge_status": "Knock Out",
+      "hedge_return": 0.290294722,
+      "price_return": 0.424982139,
+      "target_max_loss_level": 216.8264433,
+      "target_profit_level": 357.7591756
+    }
+  ],
+  "chart_data": [
+    {
+      "hedge_date": "2021-08-02",
+      "hedge_price": 236.55643010999998
+    },
+    {
+      "hedge_date": "2021-08-03",
+      "hedge_price": 236.57976342
+    },
+    {
+      "hedge_date": "2021-08-04",
+      "hedge_price": 236.97309635999997
+    },
+    {
+      "hedge_date": "2021-08-05",
+      "hedge_price": 238.20976179
+    },
+    {
+      "hedge_date": "2021-08-06",
+      "hedge_price": 233.0331003
+    },
+    {
+      "hedge_date": "2021-08-09",
+      "hedge_price": 237.91976208
+    },
+    {
+      "hedge_date": "2021-08-10",
+      "hedge_price": 236.66309667
+    },
+    {
+      "hedge_date": "2021-08-11",
+      "hedge_price": 235.93976406000002
+    },
+    {
+      "hedge_date": "2021-08-12",
+      "hedge_price": 240.74975924999998
+    },
+    {
+      "hedge_date": "2021-08-13",
+      "hedge_price": 239.05642761
+    },
+    {
+      "hedge_date": "2021-08-16",
+      "hedge_price": 228.72310460999998
+    },
+    {
+      "hedge_date": "2021-08-17",
+      "hedge_price": 221.90311143
+    },
+    {
+      "hedge_date": "2021-08-18",
+      "hedge_price": 229.66310367
+    },
+    {
+      "hedge_date": "2021-08-19",
+      "hedge_price": 224.48977551000002
+    },
+    {
+      "hedge_date": "2021-08-20",
+      "hedge_price": 226.75310657999998
+    },
+    {
+      "hedge_date": "2021-08-23",
+      "hedge_price": 235.43309789999998
+    },
+    {
+      "hedge_date": "2021-08-24",
+      "hedge_price": 236.16309717
+    },
+    {
+      "hedge_date": "2021-08-25",
+      "hedge_price": 237.06642960000002
+    },
+    {
+      "hedge_date": "2021-08-26",
+      "hedge_price": 233.71976628
+    },
+    {
+      "hedge_date": "2021-08-27",
+      "hedge_price": 237.30642935999998
+    },
+    {
+      "hedge_date": "2021-08-30",
+      "hedge_price": 243.63642302999997
+    },
+    {
+      "hedge_date": "2021-08-31",
+      "hedge_price": 245.23975476
+    },
+    {
+      "hedge_date": "2021-09-01",
+      "hedge_price": 244.69642197000002
+    },
+    {
+      "hedge_date": "2021-09-02",
+      "hedge_price": 244.12975587
+    },
+    {
+      "hedge_date": "2021-09-03",
+      "hedge_price": 244.52308881000002
+    },
+    {
+      "hedge_date": "2021-09-07",
+      "hedge_price": 250.97308235999998
+    },
+    {
+      "hedge_date": "2021-09-08",
+      "hedge_price": 251.28974871
+    },
+    {
+      "hedge_date": "2021-09-09",
+      "hedge_price": 251.61974838
+    },
+    {
+      "hedge_date": "2021-09-10",
+      "hedge_price": 245.42308791
+    },
+    {
+      "hedge_date": "2021-09-13",
+      "hedge_price": 247.666419
+    },
+    {
+      "hedge_date": "2021-09-14",
+      "hedge_price": 248.16308517
+    },
+    {
+      "hedge_date": "2021-09-15",
+      "hedge_price": 251.94308139
+    },
+    {
+      "hedge_date": "2021-09-16",
+      "hedge_price": 252.33
+    },
+    {
+      "hedge_date": "2021-09-17",
+      "hedge_price": 253.16
+    },
+    {
+      "hedge_date": "2021-09-20",
+      "hedge_price": 243.39
+    },
+    {
+      "hedge_date": "2021-09-21",
+      "hedge_price": 246.46
+    },
+    {
+      "hedge_date": "2021-09-22",
+      "hedge_price": 250.65
+    },
+    {
+      "hedge_date": "2021-09-23",
+      "hedge_price": 251.21
+    },
+    {
+      "hedge_date": "2021-09-24",
+      "hedge_price": 258.13
+    },
+    {
+      "hedge_date": "2021-09-27",
+      "hedge_price": 263.79
+    },
+    {
+      "hedge_date": "2021-09-28",
+      "hedge_price": 259.19
+    },
+    {
+      "hedge_date": "2021-09-29",
+      "hedge_price": 260.44
+    },
+    {
+      "hedge_date": "2021-09-30",
+      "hedge_price": 258.49
+    },
+    {
+      "hedge_date": "2021-10-01",
+      "hedge_price": 258.41
+    },
+    {
+      "hedge_date": "2021-10-04",
+      "hedge_price": 260.51
+    },
+    {
+      "hedge_date": "2021-10-05",
+      "hedge_price": 260.2
+    },
+    {
+      "hedge_date": "2021-10-06",
+      "hedge_price": 260.92
+    },
+    {
+      "hedge_date": "2021-10-07",
+      "hedge_price": 264.54
+    },
+    {
+      "hedge_date": "2021-10-08",
+      "hedge_price": 261.83
+    },
+    {
+      "hedge_date": "2021-10-11",
+      "hedge_price": 263.98
+    },
+    {
+      "hedge_date": "2021-10-12",
+      "hedge_price": 268.57
+    },
+    {
+      "hedge_date": "2021-10-13",
+      "hedge_price": 270.36
+    },
+    {
+      "hedge_date": "2021-10-14",
+      "hedge_price": 272.77
+    },
+    {
+      "hedge_date": "2021-10-15",
+      "hedge_price": 281.01
+    },
+    {
+      "hedge_date": "2021-10-18",
+      "hedge_price": 290.04
+    },
+    {
+      "hedge_date": "2021-10-19",
+      "hedge_price": 288.09
+    },
+    {
+      "hedge_date": "2021-10-20",
+      "hedge_price": 288.6
+    },
+    {
+      "hedge_date": "2021-10-21",
+      "hedge_price": 298.0
+    },
+    {
+      "hedge_date": "2021-10-22",
+      "hedge_price": 303.23
+    },
+    {
+      "hedge_date": "2021-10-25",
+      "hedge_price": 341.62
+    },
+    {
+      "hedge_date": "2021-10-26",
+      "hedge_price": 339.48
+    },
+    {
+      "hedge_date": "2021-10-27",
+      "hedge_price": 345.95
+    },
+    {
+      "hedge_date": "2021-10-28",
+      "hedge_price": 359.01
+    },
+    {
+      "hedge_date": "2021-10-29",
+      "hedge_price": 371.332962
+    },
+    {
+      "hedge_date": "2021-11-01",
+      "hedge_price": 402.86293047
+    },
+    {
+      "hedge_date": "2021-11-02",
+      "hedge_price": 390.666276
+    },
+    {
+      "hedge_date": "2021-11-03",
+      "hedge_price": 404.61959537999996
+    },
+    {
+      "hedge_date": "2021-11-04",
+      "hedge_price": 409.96959003
+    },
+    {
+      "hedge_date": "2021-11-05",
+      "hedge_price": 407.36292596999994
+    },
+    {
+      "hedge_date": "2021-11-08",
+      "hedge_price": 387.64627902
+    },
+    {
+      "hedge_date": "2021-11-09",
+      "hedge_price": 341.16632549999997
+    },
+    {
+      "hedge_date": "2021-11-10",
+      "hedge_price": 355.98297735
+    },
+    {
+      "hedge_date": "2021-11-11",
+      "hedge_price": 354.50297882999996
+    },
+    {
+      "hedge_date": "2021-11-12",
+      "hedge_price": 344.47298886
+    },
+    {
+      "hedge_date": "2021-11-15",
+      "hedge_price": 337.79632886999997
+    },
+    {
+      "hedge_date": "2021-11-16",
+      "hedge_price": 351.57631509
+    },
+    {
+      "hedge_date": "2021-11-17",
+      "hedge_price": 363.00297033
+    },
+    {
+      "hedge_date": "2021-11-18",
+      "hedge_price": 365.45963454
+    },
+    {
+      "hedge_date": "2021-11-19",
+      "hedge_price": 379.01962097999996
+    },
+    {
+      "hedge_date": "2021-11-22",
+      "hedge_price": 385.62294770999995
+    },
+    {
+      "hedge_date": "2021-11-23",
+      "hedge_price": 369.67629698999997
+    },
+    {
+      "hedge_date": "2021-11-24",
+      "hedge_price": 371.999628
+    },
+    {
+      "hedge_date": "2021-11-26",
+      "hedge_price": 360.63963936
+    },
+    {
+      "hedge_date": "2021-11-29",
+      "hedge_price": 378.99628767
+    },
+    {
+      "hedge_date": "2021-11-30",
+      "hedge_price": 381.58628508
+    },
+    {
+      "hedge_date": "2021-12-01",
+      "hedge_price": 364.999635
+    },
+    {
+      "hedge_date": "2021-12-02",
+      "hedge_price": 361.5329718
+    },
+    {
+      "hedge_date": "2021-12-03",
+      "hedge_price": 338.32299501
+    },
+    {
+      "hedge_date": "2021-12-06",
+      "hedge_price": 336.33633033
+    },
+    {
+      "hedge_date": "2021-12-07",
+      "hedge_price": 350.58298275
+    },
+    {
+      "hedge_date": "2021-12-08",
+      "hedge_price": 356.31964368
+    },
+    {
+      "hedge_date": "2021-12-09",
+      "hedge_price": 334.5996654
+    },
+    {
+      "hedge_date": "2021-12-10",
+      "hedge_price": 339.00966099
+    },
+    {
+      "hedge_date": "2021-12-13",
+      "hedge_price": 322.13634453
+    },
+    {
+      "hedge_date": "2021-12-14",
+      "hedge_price": 319.50301383
+    },
+    {
+      "hedge_date": "2021-12-15",
+      "hedge_price": 325.32967467
+    },
+    {
+      "hedge_date": "2021-12-16",
+      "hedge_price": 308.97302435999995
+    },
+    {
+      "hedge_date": "2021-12-17",
+      "hedge_price": 310.85635581
+    },
+    {
+      "hedge_date": "2021-12-20",
+      "hedge_price": 299.97970002
+    },
+    {
+      "hedge_date": "2021-12-21",
+      "hedge_price": 312.84302048999996
+    },
+    {
+      "hedge_date": "2021-12-22",
+      "hedge_price": 336.28966371
+    },
+    {
+      "hedge_date": "2021-12-23",
+      "hedge_price": 355.666311
+    },
+    {
+      "hedge_date": "2021-12-27",
+      "hedge_price": 364.64630202
+    },
+    {
+      "hedge_date": "2021-12-28",
+      "hedge_price": 362.82297051
+    },
+    {
+      "hedge_date": "2021-12-29",
+      "hedge_price": 362.06297127
+    },
+    {
+      "hedge_date": "2021-12-30",
+      "hedge_price": 356.77964321999997
+    },
+    {
+      "hedge_date": "2021-12-31",
+      "hedge_price": 352.25964774
+    },
+    {
+      "hedge_date": "2022-01-03",
+      "hedge_price": 399.92626673999996
+    },
+    {
+      "hedge_date": "2022-01-04",
+      "hedge_price": 383.19628346999997
+    },
+    {
+      "hedge_date": "2022-01-05",
+      "hedge_price": 362.70630395999996
+    },
+    {
+      "hedge_date": "2022-01-06",
+      "hedge_price": 354.8996451
+    },
+    {
+      "hedge_date": "2022-01-07",
+      "hedge_price": 342.31965768
+    },
+    {
+      "hedge_date": "2022-01-10",
+      "hedge_price": 352.70631395999993
+    },
+    {
+      "hedge_date": "2022-01-11",
+      "hedge_price": 354.79964520000004
+    },
+    {
+      "hedge_date": "2022-01-12",
+      "hedge_price": 368.73963126
+    },
+    {
+      "hedge_date": "2022-01-13",
+      "hedge_price": 343.85298947999996
+    },
+    {
+      "hedge_date": "2022-01-14",
+      "hedge_price": 349.86965012999997
+    },
+    {
+      "hedge_date": "2022-01-18",
+      "hedge_price": 343.50298983
+    },
+    {
+      "hedge_date": "2022-01-19",
+      "hedge_price": 331.88300145
+    },
+    {
+      "hedge_date": "2022-01-20",
+      "hedge_price": 332.08966791
+    },
+    {
+      "hedge_date": "2022-01-21",
+      "hedge_price": 314.6330187
+    },
+    {
+      "hedge_date": "2022-01-24",
+      "hedge_price": 309.99969
+    },
+    {
+      "hedge_date": "2022-01-25",
+      "hedge_price": 306.13302719999996
+    },
+    {
+      "hedge_date": "2022-01-26",
+      "hedge_price": 312.46968753
+    },
+    {
+      "hedge_date": "2022-01-27",
+      "hedge_price": 276.3663903
+    },
+    {
+      "hedge_date": "2022-01-28",
+      "hedge_price": 282.11638455
+    },
+    {
+      "hedge_date": "2022-01-31",
+      "hedge_price": 312.23968776
+    },
+    {
+      "hedge_date": "2022-02-01",
+      "hedge_price": 310.41635625
+    },
+    {
+      "hedge_date": "2022-02-02",
+      "hedge_price": 301.88636478
+    },
+    {
+      "hedge_date": "2022-02-03",
+      "hedge_price": 297.04636962
+    },
+    {
+      "hedge_date": "2022-02-04",
+      "hedge_price": 307.77302556
+    },
+    {
+      "hedge_date": "2022-02-07",
+      "hedge_price": 302.44636422
+    },
+    {
+      "hedge_date": "2022-02-08",
+      "hedge_price": 307.333026
+    },
+    {
+      "hedge_date": "2022-02-09",
+      "hedge_price": 310.666356
+    },
+    {
+      "hedge_date": "2022-02-10",
+      "hedge_price": 301.51636514999996
+    },
+    {
+      "hedge_date": "2022-02-11",
+      "hedge_price": 286.66638
+    },
+    {
+      "hedge_date": "2022-02-14",
+      "hedge_price": 291.91970807999996
+    },
+    {
+      "hedge_date": "2022-02-15",
+      "hedge_price": 307.47635919
+    },
+    {
+      "hedge_date": "2022-02-16",
+      "hedge_price": 307.79635887
+    },
+    {
+      "hedge_date": "2022-02-17",
+      "hedge_price": 292.11637455
+    },
+    {
+      "hedge_date": "2022-02-18",
+      "hedge_price": 285.65971434
+    },
+    {
+      "hedge_date": "2022-02-22",
+      "hedge_price": 273.84305949
+    },
+    {
+      "hedge_date": "2022-02-23",
+      "hedge_price": 254.67974531999997
+    },
+    {
+      "hedge_date": "2022-02-24",
+      "hedge_price": 266.92306641
+    },
+    {
+      "hedge_date": "2022-02-25",
+      "hedge_price": 269.95639671
+    },
+    {
+      "hedge_date": "2022-02-28",
+      "hedge_price": 290.14304318999996
+    },
+    {
+      "hedge_date": "2022-03-01",
+      "hedge_price": 288.12304521
+    }
+  ]
+}

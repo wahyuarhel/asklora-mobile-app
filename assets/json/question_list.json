@@ -1,0 +1,647 @@
+[
+  {
+    "question_id": "quid1",
+    "question_type": "choices",
+    "question": "How long have you been investing in stocks until now, aside from MPF's?",
+    "section": "privacy",
+    "hints": null,
+    "answers": [
+      {
+        "id": 1,
+        "name": "5 years or above",
+        "score": "5",
+        "answer_type": "choices",
+        "answer": null,
+        "identifier": null
+      },
+      {
+        "id": 2,
+        "name": "3 to 4 years",
+        "score": "4",
+        "answer_type": "choices",
+        "answer": null,
+        "identifier": null
+      },
+      {
+        "id": 3,
+        "name": "1 to 2 years",
+        "score": "3",
+        "answer_type": "choices",
+        "answer": null,
+        "identifier": null
+      },
+      {
+        "id": 4,
+        "name": "Less than 1 year",
+        "score": "2",
+        "answer_type": "choices",
+        "answer": null,
+        "identifier": null
+      },
+      {
+        "id": 5,
+        "name": "Never",
+        "score": "1",
+        "answer_type": "choices",
+        "answer": null,
+        "identifier": null
+      }
+    ]
+  },
+  {
+    "question_id": "quid2",
+    "question_type": "choices",
+    "question": "How much do you make in a month? I won't tell anyone.",
+    "section": "privacy",
+    "hints": null,
+    "answers": [
+      {
+        "id": 6,
+        "name": "more than HK$150,000",
+        "score": "5",
+        "answer_type": "choices",
+        "answer": null,
+        "identifier": null
+      },
+      {
+        "id": 7,
+        "name": "HK$100,000-HK$149,999",
+        "score": "4",
+        "answer_type": "choices",
+        "answer": null,
+        "identifier": null
+      },
+      {
+        "id": 8,
+        "name": "HK$50,000-HK$99,999",
+        "score": "3",
+        "answer_type": "choices",
+        "answer": null,
+        "identifier": null
+      },
+      {
+        "id": 9,
+        "name": "HK$20,000-HK$49,999",
+        "score": "2",
+        "answer_type": "choices",
+        "answer": null,
+        "identifier": null
+      },
+      {
+        "id": 10,
+        "name": "less than HK$ 12,999",
+        "score": "1",
+        "answer_type": "choices",
+        "answer": null,
+        "identifier": null
+      }
+    ]
+  },
+  {
+    "question_id": "quid3",
+    "question_type": "choices",
+    "question": "Alright! Do you think you are financially stable?",
+    "section": "privacy",
+    "hints": null,
+    "answers": [
+      {
+        "id": 11,
+        "name": "Very accurate",
+        "score": "5",
+        "answer_type": "choices",
+        "answer": null,
+        "identifier": null
+      },
+      {
+        "id": 12,
+        "name": "Somewhat accurate",
+        "score": "4",
+        "answer_type": "choices",
+        "answer": null,
+        "identifier": null
+      },
+      {
+        "id": 13,
+        "name": "Neutral",
+        "score": "3",
+        "answer_type": "choices",
+        "answer": null,
+        "identifier": null
+      },
+      {
+        "id": 14,
+        "name": "Somewhat inaccurate",
+        "score": "2",
+        "answer_type": "choices",
+        "answer": null,
+        "identifier": null
+      },
+      {
+        "id": 15,
+        "name": "Very inaccurate",
+        "score": "1",
+        "answer_type": "choices",
+        "answer": null,
+        "identifier": null
+      }
+    ]
+  },
+  {
+    "question_id": "quid4",
+    "question_type": "choices",
+    "question": "What is your acceptable investment risk level?",
+    "section": "privacy",
+    "hints": "pick one",
+    "answers": [
+      {
+        "id": 16,
+        "name": "I can toleratre very high risk of capital loss which can exceed initial invested value to achieve very high and substantial returns",
+        "score": "5",
+        "answer_type": "choices",
+        "answer": null,
+        "identifier": null
+      },
+      {
+        "id": 17,
+        "name": "I can toleratre higher risk of capital loss to achieve substantial returns above interest rates",
+        "score": "4",
+        "answer_type": "choices",
+        "answer": null,
+        "identifier": null
+      },
+      {
+        "id": 18,
+        "name": "I can toleratre moderate risk of capital loss to achieve some capital growth and returns above interest rates",
+        "score": "3",
+        "answer_type": "choices",
+        "answer": null,
+        "identifier": null
+      },
+      {
+        "id": 19,
+        "name": "I can toleratre low risk of capital loss, such as fixed returns similar to interest rates",
+        "score": "2",
+        "answer_type": "choices",
+        "answer": null,
+        "identifier": null
+      },
+      {
+        "id": 20,
+        "name": "I cannot accept any risk of capital loss",
+        "score": "1",
+        "answer_type": "choices",
+        "answer": null,
+        "identifier": null
+      }
+    ]
+  },
+  {
+    "question_id": "quid5",
+    "question_type": "descriptive",
+    "question": "Pssst...! I won't tell anyone, how old are you?",
+    "section": "privacy",
+    "hints": "Your age",
+    "answers": []
+  },
+  {
+    "question_id": "quid6",
+    "question_type": "choices",
+    "question": "Do you have a rich vocabulary?",
+    "section": "openness",
+    "hints": null,
+    "answers": [
+      {
+        "id": 23,
+        "name": "Never",
+        "score": "5",
+        "answer_type": "choices",
+        "answer": null,
+        "identifier": null
+      },
+      {
+        "id": 24,
+        "name": "Not really...",
+        "score": "4",
+        "answer_type": "choices",
+        "answer": null,
+        "identifier": null
+      },
+      {
+        "id": 25,
+        "name": "Sometimes",
+        "score": "3",
+        "answer_type": "choices",
+        "answer": null,
+        "identifier": null
+      },
+      {
+        "id": 26,
+        "name": "Quite often",
+        "score": "2",
+        "answer_type": "choices",
+        "answer": null,
+        "identifier": null
+      },
+      {
+        "id": 27,
+        "name": "Of Course",
+        "score": "1",
+        "answer_type": "choices",
+        "answer": null,
+        "identifier": null
+      }
+    ]
+  },
+  {
+    "question_id": "quid7",
+    "question_type": "choices",
+    "question": "Do you enjoy learning new things?",
+    "section": "openness",
+    "hints": null,
+    "answers": [
+      {
+        "id": 32,
+        "name": "All the time",
+        "score": "1",
+        "answer_type": "choices",
+        "answer": null,
+        "identifier": null
+      },
+      {
+        "id": 28,
+        "name": "That's not me",
+        "score": "5",
+        "answer_type": "choices",
+        "answer": null,
+        "identifier": null
+      },
+      {
+        "id": 29,
+        "name": "Not really...",
+        "score": "4",
+        "answer_type": "choices",
+        "answer": null,
+        "identifier": null
+      },
+      {
+        "id": 30,
+        "name": "Sometimes",
+        "score": "3",
+        "answer_type": "choices",
+        "answer": null,
+        "identifier": null
+      },
+      {
+        "id": 31,
+        "name": "Usually",
+        "score": "2",
+        "answer_type": "choices",
+        "answer": null,
+        "identifier": null
+      }
+    ]
+  },
+  {
+    "question_id": "quid8",
+    "question_type": "choices",
+    "question": "Do you have a vivid imagination?",
+    "section": "openness",
+    "hints": null,
+    "answers": [
+      {
+        "id": 33,
+        "name": "No",
+        "score": "5",
+        "answer_type": "choices",
+        "answer": null,
+        "identifier": null
+      },
+      {
+        "id": 34,
+        "name": "Not really...",
+        "score": "4",
+        "answer_type": "choices",
+        "answer": null,
+        "identifier": null
+      },
+      {
+        "id": 35,
+        "name": "Sort of",
+        "score": "3",
+        "answer_type": "choices",
+        "answer": null,
+        "identifier": null
+      },
+      {
+        "id": 36,
+        "name": "Accurate",
+        "score": "2",
+        "answer_type": "choices",
+        "answer": null,
+        "identifier": null
+      },
+      {
+        "id": 37,
+        "name": "Of course",
+        "score": "1",
+        "answer_type": "choices",
+        "answer": null,
+        "identifier": null
+      }
+    ]
+  },
+  {
+    "question_id": "quid9",
+    "question_type": "choices",
+    "question": "Do you find it difficult to sit still without fidgeting?",
+    "section": "neuroticism",
+    "hints": null,
+    "answers": [
+      {
+        "id": 38,
+        "name": "All the time",
+        "score": "5",
+        "answer_type": "choices",
+        "answer": null,
+        "identifier": null
+      },
+      {
+        "id": 39,
+        "name": "Quite often",
+        "score": "4",
+        "answer_type": "choices",
+        "answer": null,
+        "identifier": null
+      },
+      {
+        "id": 40,
+        "name": "Sometimes",
+        "score": "3",
+        "answer_type": "choices",
+        "answer": null,
+        "identifier": null
+      },
+      {
+        "id": 41,
+        "name": "Not really...",
+        "score": "2",
+        "answer_type": "choices",
+        "answer": null,
+        "identifier": null
+      },
+      {
+        "id": 42,
+        "name": "Never",
+        "score": "1",
+        "answer_type": "choices",
+        "answer": null,
+        "identifier": null
+      }
+    ]
+  },
+  {
+    "question_id": "quid10",
+    "question_type": "choices",
+    "question": "Do you have trouble sleeping or wake up sweating after a bad dream?",
+    "section": "neuroticism",
+    "hints": null,
+    "answers": [
+      {
+        "id": 43,
+        "name": "All the time",
+        "score": "5",
+        "answer_type": "choices",
+        "answer": null,
+        "identifier": null
+      },
+      {
+        "id": 44,
+        "name": "Quite often",
+        "score": "4",
+        "answer_type": "choices",
+        "answer": null,
+        "identifier": null
+      },
+      {
+        "id": 45,
+        "name": "Sometimes",
+        "score": "3",
+        "answer_type": "choices",
+        "answer": null,
+        "identifier": null
+      },
+      {
+        "id": 46,
+        "name": "Not really...",
+        "score": "2",
+        "answer_type": "choices",
+        "answer": null,
+        "identifier": null
+      },
+      {
+        "id": 47,
+        "name": "Never",
+        "score": "1",
+        "answer_type": "choices",
+        "answer": null,
+        "identifier": null
+      }
+    ]
+  },
+  {
+    "question_id": "quid11",
+    "question_type": "choices",
+    "question": "Are you easily annoyed if things don't go according to plan?",
+    "section": "neuroticism",
+    "hints": null,
+    "answers": [
+      {
+        "id": 48,
+        "name": "All the time",
+        "score": "5",
+        "answer_type": "choices",
+        "answer": null,
+        "identifier": null
+      },
+      {
+        "id": 49,
+        "name": "Quite often",
+        "score": "4",
+        "answer_type": "choices",
+        "answer": null,
+        "identifier": null
+      },
+      {
+        "id": 50,
+        "name": "Sometimes",
+        "score": "3",
+        "answer_type": "choices",
+        "answer": null,
+        "identifier": null
+      },
+      {
+        "id": 51,
+        "name": "Not really...",
+        "score": "2",
+        "answer_type": "choices",
+        "answer": null,
+        "identifier": null
+      },
+      {
+        "id": 52,
+        "name": "That's not me",
+        "score": "1",
+        "answer_type": "choices",
+        "answer": null,
+        "identifier": null
+      }
+    ]
+  },
+  {
+    "question_id": "quid12",
+    "question_type": "choices",
+    "question": "Do you talk to strangers at parties?",
+    "section": "extrovert",
+    "hints": null,
+    "answers": [
+      {
+        "id": 67,
+        "name": "All the time",
+        "score": "5",
+        "answer_type": "choices",
+        "answer": null,
+        "identifier": null
+      },
+      {
+        "id": 68,
+        "name": "Quite often",
+        "score": "4",
+        "answer_type": "choices",
+        "answer": null,
+        "identifier": null
+      },
+      {
+        "id": 69,
+        "name": "Sometimes",
+        "score": "3",
+        "answer_type": "choices",
+        "answer": null,
+        "identifier": null
+      },
+      {
+        "id": 70,
+        "name": "Not really...",
+        "score": "2",
+        "answer_type": "choices",
+        "answer": null,
+        "identifier": null
+      },
+      {
+        "id": 71,
+        "name": "That's not me",
+        "score": "1",
+        "answer_type": "choices",
+        "answer": null,
+        "identifier": null
+      }
+    ]
+  },
+  {
+    "question_id": "quid13",
+    "question_type": "choices",
+    "question": "Do you often start conversations?",
+    "section": "extrovert",
+    "hints": null,
+    "answers": [
+      {
+        "id": 72,
+        "name": "All the time",
+        "score": "5",
+        "answer_type": "choices",
+        "answer": null,
+        "identifier": null
+      },
+      {
+        "id": 73,
+        "name": "Quite often",
+        "score": "4",
+        "answer_type": "choices",
+        "answer": null,
+        "identifier": null
+      },
+      {
+        "id": 74,
+        "name": "Sometimes",
+        "score": "3",
+        "answer_type": "choices",
+        "answer": null,
+        "identifier": null
+      },
+      {
+        "id": 75,
+        "name": "Not really...",
+        "score": "2",
+        "answer_type": "choices",
+        "answer": null,
+        "identifier": null
+      },
+      {
+        "id": 76,
+        "name": "That's not me",
+        "score": "1",
+        "answer_type": "choices",
+        "answer": null,
+        "identifier": null
+      }
+    ]
+  },
+  {
+    "question_id": "quid14",
+    "question_type": "choices",
+    "question": "Do others consider you to be very energetic?",
+    "section": "extrovert",
+    "hints": null,
+    "answers": [
+      {
+        "id": 77,
+        "name": "All the time",
+        "score": "5",
+        "answer_type": "choices",
+        "answer": null,
+        "identifier": null
+      },
+      {
+        "id": 78,
+        "name": "Quite often",
+        "score": "4",
+        "answer_type": "choices",
+        "answer": null,
+        "identifier": null
+      },
+      {
+        "id": 79,
+        "name": "Sometimes",
+        "score": "3",
+        "answer_type": "choices",
+        "answer": null,
+        "identifier": null
+      },
+      {
+        "id": 80,
+        "name": "Not really...",
+        "score": "2",
+        "answer_type": "choices",
+        "answer": null,
+        "identifier": null
+      },
+      {
+        "id": 81,
+        "name": "That's not me",
+        "score": "1",
+        "answer_type": "choices",
+        "answer": null,
+        "identifier": null
+      }
+    ]
+  }
+]
